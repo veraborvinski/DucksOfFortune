@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,6 +11,7 @@ using System.Windows.Forms;
 
 namespace DuckOfFortune
 {
+
     public partial class GuessGame : Form
     {
 
@@ -19,6 +20,7 @@ namespace DuckOfFortune
         {
             InitializeComponent();
         }
+
 
 
         private void GenerateBtn_Click(object sender, EventArgs e)
@@ -35,20 +37,12 @@ namespace DuckOfFortune
 
                 while (count < longy)
                 {
+                   var chosenbox = "letterBox" + (count + 1);
+                   TextBox tbx = this.Controls.Find(chosenbox, true).FirstOrDefault() as TextBox;
+                   var letterToWrite = characters[count];
+                   var converted = letterToWrite.ToString();
+                   tbx.Text = converted;
 
-
-
-                    foreach (Control control in Controls)
-                    {
-                        if (control is TextBox)
-                        {
-                            //Investigate and do your thing
-                        }
-                    }
-
-                    Console.WriteLine("test2");
-                    var letterToWrite = characters[count];
-                  
 
                     count++;
                 }
