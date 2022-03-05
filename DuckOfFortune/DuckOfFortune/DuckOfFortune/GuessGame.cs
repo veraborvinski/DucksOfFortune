@@ -47,8 +47,13 @@ namespace DuckOfFortune
                     count++;
                 }
             }
+        
 
 
+        }
+
+        private void GuessGame_Load(object sender, EventArgs e)
+        {
 
         }
     }
