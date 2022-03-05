@@ -22,11 +22,13 @@ namespace DuckOfFortune
 
         private void Wheel_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            button1.Hide();
+            button2.Show();
             timer1.Enabled = true;
             button2.Text = "stop";
             button1.Text = "";
@@ -34,14 +36,23 @@ namespace DuckOfFortune
 
         private void button2_Click(object sender, EventArgs e)
         {
+            button2.Hide();
             timer1.Enabled = false;
             button2.Text = "";
             button3.Text = Prizes[r.Next(Prizes.Length)];
+            if (button3.Text.Equals("blabla")) { 
+            }
         }
 
         private void timer1_Tick_1(object sender, EventArgs e)
         {
             button3.Text = Prizes[r.Next(Prizes.Length)];
+        }
+
+        private void Wheel_Load_1(object sender, EventArgs e)
+        {
+            button2.Hide();
+            button1.Show();
         }
     }
 }

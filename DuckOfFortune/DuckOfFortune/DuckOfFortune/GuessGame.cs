@@ -147,5 +147,12 @@ namespace DuckOfFortune
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            endGameForm endGame = new endGameForm();
+            endGame.Show();
+            this.Hide();
+        }
     }
 }
