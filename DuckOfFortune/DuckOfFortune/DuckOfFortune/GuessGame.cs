@@ -74,6 +74,7 @@ namespace DuckOfFortune
             String guess = guessBox.Text;
             string guessupper = guess.ToUpper();
             string guesslower = guess.ToLower();
+            bool guessCorrect = false;
             var count = 0;
             var count2 = 0;
             var thechecker = 0;
@@ -87,6 +88,8 @@ namespace DuckOfFortune
                 
                 if (check.Equals(guessupper) || check.Equals(guesslower))
                 {
+                    guessCorrect = true;
+
                     tbx.ForeColor = Color.White;
                 }
 
@@ -109,9 +112,12 @@ namespace DuckOfFortune
             {
                 string message = "You Win";
                 MessageBox.Show(message);
+                string[] lines = File.ReadAllLines("fortunes.txt");
+                Wheel winWheel = new Wheel(lines);
+                winWheel.Show();
             }
 
-            else
+            if(guessCorrect == false)
             {
                 int numbguessesleft = Int32.Parse(Global.guesseslefty);
                 numbguessesleft--;
@@ -121,6 +127,9 @@ namespace DuckOfFortune
                 {
                     string message = "You Lose";
                     MessageBox.Show(message);
+                    string[] lines = File.ReadAllLines("misfortunes.txt");
+                    Wheel misWheel = new Wheel(lines);
+                    misWheel.Show();
                 }
                     
             }
