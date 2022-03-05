@@ -24,13 +24,24 @@ namespace DuckOfFortune
 
         private void btnConfirm_Click(object sender, EventArgs e)
         {
+            
             name = nameBox.Text;
-            btnConfirm.Hide();
-            nameBox.Hide();
-            btnYes.Show();
-            btnNo.Show();
-            nameLbl.Show();
-            nameLbl.Text = "Are you sure your name is: " + name;
+            if (String.IsNullOrEmpty(name))
+            {
+                string message = "Name is blank";
+                MessageBox.Show(message);
+            }
+            else
+            {
+                btnConfirm.Hide();
+                nameBox.Hide();
+                btnYes.Show();
+                btnNo.Show();
+                nameLbl.Show();
+                nameLbl.Text = "Are you sure your name is: " + name;
+            }
+            
+            
 
         }
 
