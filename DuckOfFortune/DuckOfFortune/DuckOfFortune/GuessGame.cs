@@ -103,5 +103,10 @@ namespace DuckOfFortune
 
 
         }
+
+        private void GuessGame_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
