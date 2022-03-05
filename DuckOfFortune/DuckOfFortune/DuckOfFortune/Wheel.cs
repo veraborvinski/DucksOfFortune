@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Threading;
 
 namespace DuckOfFortune
 {
@@ -17,7 +16,7 @@ namespace DuckOfFortune
         Random r = new Random();
         public Wheel(string[] prizes)
         {
-            Prizes = prizes; ;
+            Prizes = prizes;
             InitializeComponent();
         }
 
@@ -28,13 +27,21 @@ namespace DuckOfFortune
 
         private void button1_Click(object sender, EventArgs e)
         {
+            timer2.Enabled = true;
             button2.Text = "stop";
+            button3.BackColor = Color.White;
             button1.Text = "";
         }
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            button2.Text = "";
+            timer2.Enabled = false;
+            button2.Text = "";     
+            button3.Text = Prizes[r.Next(Prizes.Length)];
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
             button3.Text = Prizes[r.Next(Prizes.Length)];
         }
     }
