@@ -1,1 +1,9 @@
-donate to amazon
+£1
+pay a fine
+give £1,000,000 to Amazon
+halve
+(-£100)
+(-£250)
+(-£500)
+(-£1000)
+game over
