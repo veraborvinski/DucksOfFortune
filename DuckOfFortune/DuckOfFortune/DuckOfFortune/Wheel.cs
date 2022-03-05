@@ -40,7 +40,49 @@ namespace DuckOfFortune
             timer1.Enabled = false;
             button2.Text = "";
             button3.Text = Prizes[r.Next(Prizes.Length)];
-            if (button3.Text.Equals("blabla")) { 
+            if (button3.Text.Equals("£1")) { 
+            }
+            else if (button3.Text.Equals("£100"))
+            {
+            }
+            else if (button3.Text.Equals("£250"))
+            {
+            }
+            else if (button3.Text.Equals("£500"))
+            {
+            }
+            else if (button3.Text.Equals("£1000"))
+            {
+            }
+            else if (button3.Text.Equals("double"))
+            {
+            }
+            else if (button3.Text.Equals("minigame"))
+            {
+            }
+            else if (button3.Text.Equals("(-£100)"))
+            {
+            }
+            else if (button3.Text.Equals("(-£250)"))
+            {
+            }
+            else if (button3.Text.Equals("(-£500)"))
+            {
+            }
+            else if (button3.Text.Equals("(-£1000)"))
+            {
+            }
+            else if (button3.Text.Equals("halve"))
+            {
+            }
+            else if (button3.Text.Equals("pay a fine"))
+            {
+            }
+            else if (button3.Text.Equals("give £1,000,000 to Amazon"))
+            {
+            }
+            else if (button3.Text.Equals("game over"))
+            {
             }
         }
 
