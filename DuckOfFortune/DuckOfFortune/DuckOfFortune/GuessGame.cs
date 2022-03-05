@@ -22,6 +22,16 @@ namespace DuckOfFortune
         }
 
 
+        static class Global
+        {
+            private static string guessesleft;
+
+            public static string guesseslefty
+            {
+                get { return guessesleft; }
+                set { guessesleft = value; }
+            }
+        }
 
         private void GenerateBtn_Click(object sender, EventArgs e)
         {
@@ -101,10 +111,29 @@ namespace DuckOfFortune
                 MessageBox.Show(message);
             }
 
+            else
+            {
+                int numbguessesleft = Int32.Parse(Global.guesseslefty);
+                numbguessesleft--;
+                Global.guesseslefty = numbguessesleft.ToString();
+                GuessLbl.Text="Guesses Left: "+numbguessesleft;
+                if (numbguessesleft == 0)
+                {
+                    string message = "You Lose";
+                    MessageBox.Show(message);
+                }
+                    
+            }
+
 
         }
 
         private void GuessGame_Load(object sender, EventArgs e)
+        {
+            Global.guesseslefty = "5";
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
