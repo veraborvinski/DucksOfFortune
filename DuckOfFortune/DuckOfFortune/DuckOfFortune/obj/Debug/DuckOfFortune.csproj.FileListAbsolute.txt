@@ -34,3 +34,5 @@ C:\Users\veraborvinski\Source\Repos\DucksOfFortune\DuckOfFortune\DuckOfFortune\D
 C:\Users\veraborvinski\Source\Repos\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.csproj.CoreCompileInputs.cache
 C:\Users\veraborvinski\Source\Repos\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.exe
 C:\Users\veraborvinski\Source\Repos\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.pdb
+C:\Users\veraborvinski\Source\Repos\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.HighScore.resources
+C:\Users\veraborvinski\Source\Repos\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.Rules.resources

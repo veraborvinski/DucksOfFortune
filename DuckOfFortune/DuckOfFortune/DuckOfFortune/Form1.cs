@@ -30,7 +30,8 @@ namespace DuckOfFortune
 
         private void btnScores_Click(object sender, EventArgs e)
         {
-
+            HighScore highscore = new HighScore();
+            highscore.Show();
         }
 
         private void btnQuit_Click(object sender, EventArgs e)
