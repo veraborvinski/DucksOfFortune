@@ -38,6 +38,7 @@ namespace DuckOfFortune
                 while (count < longy)
                 {
                    var chosenbox = "letterBox" + (count + 1);
+                    Console.WriteLine(chosenbox);
                    TextBox tbx = this.Controls.Find(chosenbox, true).FirstOrDefault() as TextBox;
                    var letterToWrite = characters[count];
                    var converted = letterToWrite.ToString();

@@ -29,42 +29,10 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.letterBox1 = new System.Windows.Forms.TextBox();
-            this.letterBox2 = new System.Windows.Forms.TextBox();
-            this.letterBox4 = new System.Windows.Forms.TextBox();
-            this.letterBox3 = new System.Windows.Forms.TextBox();
-            this.letterBox8 = new System.Windows.Forms.TextBox();
-            this.letterBox7 = new System.Windows.Forms.TextBox();
-            this.letterBox6 = new System.Windows.Forms.TextBox();
-            this.letterBox5 = new System.Windows.Forms.TextBox();
-            this.letterBox12 = new System.Windows.Forms.TextBox();
-            this.letterBox11 = new System.Windows.Forms.TextBox();
-            this.letterBox10 = new System.Windows.Forms.TextBox();
-            this.letterBox9 = new System.Windows.Forms.TextBox();
-            this.letterBox25 = new System.Windows.Forms.TextBox();
-            this.letterBox24 = new System.Windows.Forms.TextBox();
-            this.letterBox23 = new System.Windows.Forms.TextBox();
-            this.letterBox22 = new System.Windows.Forms.TextBox();
-            this.letterBox21 = new System.Windows.Forms.TextBox();
-            this.letterBox20 = new System.Windows.Forms.TextBox();
-            this.letterBox19 = new System.Windows.Forms.TextBox();
-            this.letterBox18 = new System.Windows.Forms.TextBox();
-            this.letterBox17 = new System.Windows.Forms.TextBox();
-            this.letterBox16 = new System.Windows.Forms.TextBox();
-            this.letterBox15 = new System.Windows.Forms.TextBox();
-            this.letterBox14 = new System.Windows.Forms.TextBox();
-            this.letterBox39 = new System.Windows.Forms.TextBox();
-            this.letterBox38 = new System.Windows.Forms.TextBox();
-            this.letterBox37 = new System.Windows.Forms.TextBox();
-            this.letterBox36 = new System.Windows.Forms.TextBox();
-            this.letterBox35 = new System.Windows.Forms.TextBox();
-            this.letterBox34 = new System.Windows.Forms.TextBox();
-            this.letterBox33 = new System.Windows.Forms.TextBox();
-            this.letterBox32 = new System.Windows.Forms.TextBox();
-            this.letterBox31 = new System.Windows.Forms.TextBox();
-            this.letterBox30 = new System.Windows.Forms.TextBox();
-            this.letterBox29 = new System.Windows.Forms.TextBox();
-            this.letterBox28 = new System.Windows.Forms.TextBox();
+            this.letterBox26 = new System.Windows.Forms.TextBox();
+            this.letterBox40 = new System.Windows.Forms.TextBox();
+            this.letterBox27 = new System.Windows.Forms.TextBox();
+            this.letterBox13 = new System.Windows.Forms.TextBox();
             this.letterBox52 = new System.Windows.Forms.TextBox();
             this.letterBox51 = new System.Windows.Forms.TextBox();
             this.letterBox50 = new System.Windows.Forms.TextBox();
@@ -77,10 +45,42 @@
             this.letterBox43 = new System.Windows.Forms.TextBox();
             this.letterBox42 = new System.Windows.Forms.TextBox();
             this.letterBox41 = new System.Windows.Forms.TextBox();
-            this.letterBox26 = new System.Windows.Forms.TextBox();
-            this.letterBox40 = new System.Windows.Forms.TextBox();
-            this.letterBox27 = new System.Windows.Forms.TextBox();
-            this.letterBox13 = new System.Windows.Forms.TextBox();
+            this.letterBox39 = new System.Windows.Forms.TextBox();
+            this.letterBox38 = new System.Windows.Forms.TextBox();
+            this.letterBox37 = new System.Windows.Forms.TextBox();
+            this.letterBox36 = new System.Windows.Forms.TextBox();
+            this.letterBox35 = new System.Windows.Forms.TextBox();
+            this.letterBox34 = new System.Windows.Forms.TextBox();
+            this.letterBox33 = new System.Windows.Forms.TextBox();
+            this.letterBox32 = new System.Windows.Forms.TextBox();
+            this.letterBox31 = new System.Windows.Forms.TextBox();
+            this.letterBox30 = new System.Windows.Forms.TextBox();
+            this.letterBox29 = new System.Windows.Forms.TextBox();
+            this.letterBox28 = new System.Windows.Forms.TextBox();
+            this.letterBox25 = new System.Windows.Forms.TextBox();
+            this.letterBox24 = new System.Windows.Forms.TextBox();
+            this.letterBox23 = new System.Windows.Forms.TextBox();
+            this.letterBox22 = new System.Windows.Forms.TextBox();
+            this.letterBox21 = new System.Windows.Forms.TextBox();
+            this.letterBox20 = new System.Windows.Forms.TextBox();
+            this.letterBox19 = new System.Windows.Forms.TextBox();
+            this.letterBox18 = new System.Windows.Forms.TextBox();
+            this.letterBox17 = new System.Windows.Forms.TextBox();
+            this.letterBox16 = new System.Windows.Forms.TextBox();
+            this.letterBox15 = new System.Windows.Forms.TextBox();
+            this.letterBox14 = new System.Windows.Forms.TextBox();
+            this.letterBox12 = new System.Windows.Forms.TextBox();
+            this.letterBox11 = new System.Windows.Forms.TextBox();
+            this.letterBox10 = new System.Windows.Forms.TextBox();
+            this.letterBox9 = new System.Windows.Forms.TextBox();
+            this.letterBox8 = new System.Windows.Forms.TextBox();
+            this.letterBox7 = new System.Windows.Forms.TextBox();
+            this.letterBox6 = new System.Windows.Forms.TextBox();
+            this.letterBox5 = new System.Windows.Forms.TextBox();
+            this.letterBox4 = new System.Windows.Forms.TextBox();
+            this.letterBox3 = new System.Windows.Forms.TextBox();
+            this.letterBox2 = new System.Windows.Forms.TextBox();
+            this.letterBox1 = new System.Windows.Forms.TextBox();
             this.GenerateBtn = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -146,330 +146,41 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "TheGameGrid";
             // 
-            // letterBox1
-            // 
-            this.letterBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox1.Location = new System.Drawing.Point(165, 25);
-            this.letterBox1.Name = "letterBox1";
-            this.letterBox1.ReadOnly = true;
-            this.letterBox1.Size = new System.Drawing.Size(35, 53);
-            this.letterBox1.TabIndex = 1;
-            // 
-            // letterBox2
-            // 
-            this.letterBox2.Enabled = false;
-            this.letterBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox2.Location = new System.Drawing.Point(206, 25);
-            this.letterBox2.Name = "letterBox2";
-            this.letterBox2.ReadOnly = true;
-            this.letterBox2.Size = new System.Drawing.Size(35, 53);
-            this.letterBox2.TabIndex = 2;
-            // 
-            // letterBox4
-            // 
-            this.letterBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox4.Location = new System.Drawing.Point(288, 25);
-            this.letterBox4.Name = "letterBox4";
-            this.letterBox4.ReadOnly = true;
-            this.letterBox4.Size = new System.Drawing.Size(35, 53);
-            this.letterBox4.TabIndex = 4;
-            // 
-            // letterBox3
-            // 
-            this.letterBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox3.Location = new System.Drawing.Point(247, 25);
-            this.letterBox3.Name = "letterBox3";
-            this.letterBox3.ReadOnly = true;
-            this.letterBox3.Size = new System.Drawing.Size(35, 53);
-            this.letterBox3.TabIndex = 3;
-            // 
-            // letterBox8
-            // 
-            this.letterBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox8.Location = new System.Drawing.Point(452, 25);
-            this.letterBox8.Name = "letterBox8";
-            this.letterBox8.ReadOnly = true;
-            this.letterBox8.Size = new System.Drawing.Size(35, 53);
-            this.letterBox8.TabIndex = 8;
-            // 
-            // letterBox7
-            // 
-            this.letterBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox7.Location = new System.Drawing.Point(411, 25);
-            this.letterBox7.Name = "letterBox7";
-            this.letterBox7.ReadOnly = true;
-            this.letterBox7.Size = new System.Drawing.Size(35, 53);
-            this.letterBox7.TabIndex = 7;
-            // 
-            // letterBox6
-            // 
-            this.letterBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox6.Location = new System.Drawing.Point(370, 25);
-            this.letterBox6.Name = "letterBox6";
-            this.letterBox6.ReadOnly = true;
-            this.letterBox6.Size = new System.Drawing.Size(35, 53);
-            this.letterBox6.TabIndex = 6;
-            // 
-            // letterBox5
-            // 
-            this.letterBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox5.Location = new System.Drawing.Point(329, 25);
-            this.letterBox5.Name = "letterBox5";
-            this.letterBox5.ReadOnly = true;
-            this.letterBox5.Size = new System.Drawing.Size(35, 53);
-            this.letterBox5.TabIndex = 5;
-            // 
-            // letterBox12
-            // 
-            this.letterBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox12.Location = new System.Drawing.Point(616, 25);
-            this.letterBox12.Name = "letterBox12";
-            this.letterBox12.ReadOnly = true;
-            this.letterBox12.Size = new System.Drawing.Size(35, 53);
-            this.letterBox12.TabIndex = 12;
-            // 
-            // letterBox11
-            // 
-            this.letterBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox11.Location = new System.Drawing.Point(575, 25);
-            this.letterBox11.Name = "letterBox11";
-            this.letterBox11.ReadOnly = true;
-            this.letterBox11.Size = new System.Drawing.Size(35, 53);
-            this.letterBox11.TabIndex = 11;
-            // 
-            // letterBox10
-            // 
-            this.letterBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox10.Location = new System.Drawing.Point(534, 25);
-            this.letterBox10.Name = "letterBox10";
-            this.letterBox10.ReadOnly = true;
-            this.letterBox10.Size = new System.Drawing.Size(35, 53);
-            this.letterBox10.TabIndex = 10;
-            // 
-            // letterBox9
-            // 
-            this.letterBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox9.Location = new System.Drawing.Point(493, 25);
-            this.letterBox9.Name = "letterBox9";
-            this.letterBox9.ReadOnly = true;
-            this.letterBox9.Size = new System.Drawing.Size(35, 53);
-            this.letterBox9.TabIndex = 9;
-            // 
-            // letterBox25
-            // 
-            this.letterBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox25.Location = new System.Drawing.Point(616, 95);
-            this.letterBox25.Name = "letterBox25";
-            this.letterBox25.ReadOnly = true;
-            this.letterBox25.Size = new System.Drawing.Size(35, 53);
-            this.letterBox25.TabIndex = 24;
-            // 
-            // letterBox24
-            // 
-            this.letterBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox24.Location = new System.Drawing.Point(575, 95);
-            this.letterBox24.Name = "letterBox24";
-            this.letterBox24.ReadOnly = true;
-            this.letterBox24.Size = new System.Drawing.Size(35, 53);
-            this.letterBox24.TabIndex = 23;
-            // 
-            // letterBox23
-            // 
-            this.letterBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox23.Location = new System.Drawing.Point(534, 95);
-            this.letterBox23.Name = "letterBox23";
-            this.letterBox23.ReadOnly = true;
-            this.letterBox23.Size = new System.Drawing.Size(35, 53);
-            this.letterBox23.TabIndex = 22;
-            // 
-            // letterBox22
-            // 
-            this.letterBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox22.Location = new System.Drawing.Point(493, 95);
-            this.letterBox22.Name = "letterBox22";
-            this.letterBox22.ReadOnly = true;
-            this.letterBox22.Size = new System.Drawing.Size(35, 53);
-            this.letterBox22.TabIndex = 21;
-            // 
-            // letterBox21
-            // 
-            this.letterBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox21.Location = new System.Drawing.Point(452, 95);
-            this.letterBox21.Name = "letterBox21";
-            this.letterBox21.ReadOnly = true;
-            this.letterBox21.Size = new System.Drawing.Size(35, 53);
-            this.letterBox21.TabIndex = 20;
-            // 
-            // letterBox20
-            // 
-            this.letterBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox20.Location = new System.Drawing.Point(411, 95);
-            this.letterBox20.Name = "letterBox20";
-            this.letterBox20.ReadOnly = true;
-            this.letterBox20.Size = new System.Drawing.Size(35, 53);
-            this.letterBox20.TabIndex = 19;
-            // 
-            // letterBox19
-            // 
-            this.letterBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox19.Location = new System.Drawing.Point(370, 95);
-            this.letterBox19.Name = "letterBox19";
-            this.letterBox19.ReadOnly = true;
-            this.letterBox19.Size = new System.Drawing.Size(35, 53);
-            this.letterBox19.TabIndex = 18;
-            // 
-            // letterBox18
-            // 
-            this.letterBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox18.Location = new System.Drawing.Point(329, 95);
-            this.letterBox18.Name = "letterBox18";
-            this.letterBox18.ReadOnly = true;
-            this.letterBox18.Size = new System.Drawing.Size(35, 53);
-            this.letterBox18.TabIndex = 17;
-            // 
-            // letterBox17
-            // 
-            this.letterBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox17.Location = new System.Drawing.Point(288, 95);
-            this.letterBox17.Name = "letterBox17";
-            this.letterBox17.ReadOnly = true;
-            this.letterBox17.Size = new System.Drawing.Size(35, 53);
-            this.letterBox17.TabIndex = 16;
-            // 
-            // letterBox16
-            // 
-            this.letterBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox16.Location = new System.Drawing.Point(247, 95);
-            this.letterBox16.Name = "letterBox16";
-            this.letterBox16.ReadOnly = true;
-            this.letterBox16.Size = new System.Drawing.Size(35, 53);
-            this.letterBox16.TabIndex = 15;
-            // 
-            // letterBox15
-            // 
-            this.letterBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox15.Location = new System.Drawing.Point(206, 95);
-            this.letterBox15.Name = "letterBox15";
-            this.letterBox15.ReadOnly = true;
-            this.letterBox15.Size = new System.Drawing.Size(35, 53);
-            this.letterBox15.TabIndex = 14;
-            // 
-            // letterBox14
-            // 
-            this.letterBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox14.Location = new System.Drawing.Point(165, 95);
-            this.letterBox14.Name = "letterBox14";
-            this.letterBox14.ReadOnly = true;
-            this.letterBox14.Size = new System.Drawing.Size(35, 53);
-            this.letterBox14.TabIndex = 13;
-            // 
-            // letterBox39
-            // 
-            this.letterBox39.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox39.Location = new System.Drawing.Point(616, 170);
-            this.letterBox39.Name = "letterBox39";
-            this.letterBox39.ReadOnly = true;
-            this.letterBox39.Size = new System.Drawing.Size(35, 53);
-            this.letterBox39.TabIndex = 36;
-            // 
-            // letterBox38
-            // 
-            this.letterBox38.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox38.Location = new System.Drawing.Point(575, 170);
-            this.letterBox38.Name = "letterBox38";
-            this.letterBox38.ReadOnly = true;
-            this.letterBox38.Size = new System.Drawing.Size(35, 53);
-            this.letterBox38.TabIndex = 35;
-            // 
-            // letterBox37
-            // 
-            this.letterBox37.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox37.Location = new System.Drawing.Point(534, 170);
-            this.letterBox37.Name = "letterBox37";
-            this.letterBox37.ReadOnly = true;
-            this.letterBox37.Size = new System.Drawing.Size(35, 53);
-            this.letterBox37.TabIndex = 34;
-            // 
-            // letterBox36
-            // 
-            this.letterBox36.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox36.Location = new System.Drawing.Point(493, 170);
-            this.letterBox36.Name = "letterBox36";
-            this.letterBox36.ReadOnly = true;
-            this.letterBox36.Size = new System.Drawing.Size(35, 53);
-            this.letterBox36.TabIndex = 33;
-            // 
-            // letterBox35
-            // 
-            this.letterBox35.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox35.Location = new System.Drawing.Point(452, 170);
-            this.letterBox35.Name = "letterBox35";
-            this.letterBox35.ReadOnly = true;
-            this.letterBox35.Size = new System.Drawing.Size(35, 53);
-            this.letterBox35.TabIndex = 32;
-            // 
-            // letterBox34
-            // 
-            this.letterBox34.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox34.Location = new System.Drawing.Point(411, 170);
-            this.letterBox34.Name = "letterBox34";
-            this.letterBox34.ReadOnly = true;
-            this.letterBox34.Size = new System.Drawing.Size(35, 53);
-            this.letterBox34.TabIndex = 31;
-            // 
-            // letterBox33
-            // 
-            this.letterBox33.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox33.Location = new System.Drawing.Point(370, 170);
-            this.letterBox33.Name = "letterBox33";
-            this.letterBox33.ReadOnly = true;
-            this.letterBox33.Size = new System.Drawing.Size(35, 53);
-            this.letterBox33.TabIndex = 30;
-            // 
-            // letterBox32
-            // 
-            this.letterBox32.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox32.Location = new System.Drawing.Point(329, 170);
-            this.letterBox32.Name = "letterBox32";
-            this.letterBox32.ReadOnly = true;
-            this.letterBox32.Size = new System.Drawing.Size(35, 53);
-            this.letterBox32.TabIndex = 29;
-            // 
-            // letterBox31
-            // 
-            this.letterBox31.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox31.Location = new System.Drawing.Point(288, 170);
-            this.letterBox31.Name = "letterBox31";
-            this.letterBox31.ReadOnly = true;
-            this.letterBox31.Size = new System.Drawing.Size(35, 53);
-            this.letterBox31.TabIndex = 28;
-            // 
-            // letterBox30
-            // 
-            this.letterBox30.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox30.Location = new System.Drawing.Point(247, 170);
-            this.letterBox30.Name = "letterBox30";
-            this.letterBox30.ReadOnly = true;
-            this.letterBox30.Size = new System.Drawing.Size(35, 53);
-            this.letterBox30.TabIndex = 27;
-            // 
-            // letterBox29
-            // 
-            this.letterBox29.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox29.Location = new System.Drawing.Point(206, 170);
-            this.letterBox29.Name = "letterBox29";
-            this.letterBox29.ReadOnly = true;
-            this.letterBox29.Size = new System.Drawing.Size(35, 53);
-            this.letterBox29.TabIndex = 26;
-            // 
-            // letterBox28
-            // 
-            this.letterBox28.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox28.Location = new System.Drawing.Point(165, 170);
-            this.letterBox28.Name = "letterBox28";
-            this.letterBox28.ReadOnly = true;
-            this.letterBox28.Size = new System.Drawing.Size(35, 53);
-            this.letterBox28.TabIndex = 25;
+            // letterBox26
+            // 
+            this.letterBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox26.Location = new System.Drawing.Point(657, 95);
+            this.letterBox26.Name = "letterBox26";
+            this.letterBox26.ReadOnly = true;
+            this.letterBox26.Size = new System.Drawing.Size(35, 53);
+            this.letterBox26.TabIndex = 60;
+            // 
+            // letterBox40
+            // 
+            this.letterBox40.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox40.Location = new System.Drawing.Point(657, 170);
+            this.letterBox40.Name = "letterBox40";
+            this.letterBox40.ReadOnly = true;
+            this.letterBox40.Size = new System.Drawing.Size(35, 53);
+            this.letterBox40.TabIndex = 59;
+            // 
+            // letterBox27
+            // 
+            this.letterBox27.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox27.Location = new System.Drawing.Point(124, 170);
+            this.letterBox27.Name = "letterBox27";
+            this.letterBox27.ReadOnly = true;
+            this.letterBox27.Size = new System.Drawing.Size(35, 53);
+            this.letterBox27.TabIndex = 50;
+            // 
+            // letterBox13
+            // 
+            this.letterBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox13.Location = new System.Drawing.Point(124, 95);
+            this.letterBox13.Name = "letterBox13";
+            this.letterBox13.ReadOnly = true;
+            this.letterBox13.Size = new System.Drawing.Size(35, 53);
+            this.letterBox13.TabIndex = 49;
             // 
             // letterBox52
             // 
@@ -579,41 +290,329 @@
             this.letterBox41.Size = new System.Drawing.Size(35, 53);
             this.letterBox41.TabIndex = 37;
             // 
-            // letterBox26
+            // letterBox39
             // 
-            this.letterBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox26.Location = new System.Drawing.Point(657, 95);
-            this.letterBox26.Name = "letterBox26";
-            this.letterBox26.ReadOnly = true;
-            this.letterBox26.Size = new System.Drawing.Size(35, 53);
-            this.letterBox26.TabIndex = 60;
+            this.letterBox39.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox39.Location = new System.Drawing.Point(616, 170);
+            this.letterBox39.Name = "letterBox39";
+            this.letterBox39.ReadOnly = true;
+            this.letterBox39.Size = new System.Drawing.Size(35, 53);
+            this.letterBox39.TabIndex = 36;
             // 
-            // letterBox40
+            // letterBox38
             // 
-            this.letterBox40.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox40.Location = new System.Drawing.Point(657, 170);
-            this.letterBox40.Name = "letterBox40";
-            this.letterBox40.ReadOnly = true;
-            this.letterBox40.Size = new System.Drawing.Size(35, 53);
-            this.letterBox40.TabIndex = 59;
+            this.letterBox38.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox38.Location = new System.Drawing.Point(575, 170);
+            this.letterBox38.Name = "letterBox38";
+            this.letterBox38.ReadOnly = true;
+            this.letterBox38.Size = new System.Drawing.Size(35, 53);
+            this.letterBox38.TabIndex = 35;
             // 
-            // letterBox27
+            // letterBox37
             // 
-            this.letterBox27.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox27.Location = new System.Drawing.Point(124, 170);
-            this.letterBox27.Name = "letterBox27";
-            this.letterBox27.ReadOnly = true;
-            this.letterBox27.Size = new System.Drawing.Size(35, 53);
-            this.letterBox27.TabIndex = 50;
+            this.letterBox37.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox37.Location = new System.Drawing.Point(534, 170);
+            this.letterBox37.Name = "letterBox37";
+            this.letterBox37.ReadOnly = true;
+            this.letterBox37.Size = new System.Drawing.Size(35, 53);
+            this.letterBox37.TabIndex = 34;
             // 
-            // letterBox13
+            // letterBox36
             // 
-            this.letterBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.letterBox13.Location = new System.Drawing.Point(124, 95);
-            this.letterBox13.Name = "letterBox13";
-            this.letterBox13.ReadOnly = true;
-            this.letterBox13.Size = new System.Drawing.Size(35, 53);
-            this.letterBox13.TabIndex = 49;
+            this.letterBox36.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox36.Location = new System.Drawing.Point(493, 170);
+            this.letterBox36.Name = "letterBox36";
+            this.letterBox36.ReadOnly = true;
+            this.letterBox36.Size = new System.Drawing.Size(35, 53);
+            this.letterBox36.TabIndex = 33;
+            // 
+            // letterBox35
+            // 
+            this.letterBox35.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox35.Location = new System.Drawing.Point(452, 170);
+            this.letterBox35.Name = "letterBox35";
+            this.letterBox35.ReadOnly = true;
+            this.letterBox35.Size = new System.Drawing.Size(35, 53);
+            this.letterBox35.TabIndex = 32;
+            // 
+            // letterBox34
+            // 
+            this.letterBox34.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox34.Location = new System.Drawing.Point(411, 170);
+            this.letterBox34.Name = "letterBox34";
+            this.letterBox34.ReadOnly = true;
+            this.letterBox34.Size = new System.Drawing.Size(35, 53);
+            this.letterBox34.TabIndex = 31;
+            // 
+            // letterBox33
+            // 
+            this.letterBox33.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox33.Location = new System.Drawing.Point(370, 170);
+            this.letterBox33.Name = "letterBox33";
+            this.letterBox33.ReadOnly = true;
+            this.letterBox33.Size = new System.Drawing.Size(35, 53);
+            this.letterBox33.TabIndex = 30;
+            // 
+            // letterBox32
+            // 
+            this.letterBox32.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox32.Location = new System.Drawing.Point(329, 170);
+            this.letterBox32.Name = "letterBox32";
+            this.letterBox32.ReadOnly = true;
+            this.letterBox32.Size = new System.Drawing.Size(35, 53);
+            this.letterBox32.TabIndex = 29;
+            // 
+            // letterBox31
+            // 
+            this.letterBox31.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox31.Location = new System.Drawing.Point(288, 170);
+            this.letterBox31.Name = "letterBox31";
+            this.letterBox31.ReadOnly = true;
+            this.letterBox31.Size = new System.Drawing.Size(35, 53);
+            this.letterBox31.TabIndex = 28;
+            // 
+            // letterBox30
+            // 
+            this.letterBox30.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox30.Location = new System.Drawing.Point(247, 170);
+            this.letterBox30.Name = "letterBox30";
+            this.letterBox30.ReadOnly = true;
+            this.letterBox30.Size = new System.Drawing.Size(35, 53);
+            this.letterBox30.TabIndex = 27;
+            // 
+            // letterBox29
+            // 
+            this.letterBox29.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox29.Location = new System.Drawing.Point(206, 170);
+            this.letterBox29.Name = "letterBox29";
+            this.letterBox29.ReadOnly = true;
+            this.letterBox29.Size = new System.Drawing.Size(35, 53);
+            this.letterBox29.TabIndex = 26;
+            // 
+            // letterBox28
+            // 
+            this.letterBox28.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox28.Location = new System.Drawing.Point(165, 170);
+            this.letterBox28.Name = "letterBox28";
+            this.letterBox28.ReadOnly = true;
+            this.letterBox28.Size = new System.Drawing.Size(35, 53);
+            this.letterBox28.TabIndex = 25;
+            // 
+            // letterBox25
+            // 
+            this.letterBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox25.Location = new System.Drawing.Point(616, 95);
+            this.letterBox25.Name = "letterBox25";
+            this.letterBox25.ReadOnly = true;
+            this.letterBox25.Size = new System.Drawing.Size(35, 53);
+            this.letterBox25.TabIndex = 24;
+            // 
+            // letterBox24
+            // 
+            this.letterBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox24.Location = new System.Drawing.Point(575, 95);
+            this.letterBox24.Name = "letterBox24";
+            this.letterBox24.ReadOnly = true;
+            this.letterBox24.Size = new System.Drawing.Size(35, 53);
+            this.letterBox24.TabIndex = 23;
+            // 
+            // letterBox23
+            // 
+            this.letterBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox23.Location = new System.Drawing.Point(534, 95);
+            this.letterBox23.Name = "letterBox23";
+            this.letterBox23.ReadOnly = true;
+            this.letterBox23.Size = new System.Drawing.Size(35, 53);
+            this.letterBox23.TabIndex = 22;
+            // 
+            // letterBox22
+            // 
+            this.letterBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox22.Location = new System.Drawing.Point(493, 95);
+            this.letterBox22.Name = "letterBox22";
+            this.letterBox22.ReadOnly = true;
+            this.letterBox22.Size = new System.Drawing.Size(35, 53);
+            this.letterBox22.TabIndex = 21;
+            // 
+            // letterBox21
+            // 
+            this.letterBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox21.Location = new System.Drawing.Point(452, 95);
+            this.letterBox21.Name = "letterBox21";
+            this.letterBox21.ReadOnly = true;
+            this.letterBox21.Size = new System.Drawing.Size(35, 53);
+            this.letterBox21.TabIndex = 20;
+            // 
+            // letterBox20
+            // 
+            this.letterBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox20.Location = new System.Drawing.Point(411, 95);
+            this.letterBox20.Name = "letterBox20";
+            this.letterBox20.ReadOnly = true;
+            this.letterBox20.Size = new System.Drawing.Size(35, 53);
+            this.letterBox20.TabIndex = 19;
+            // 
+            // letterBox19
+            // 
+            this.letterBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox19.Location = new System.Drawing.Point(370, 95);
+            this.letterBox19.Name = "letterBox19";
+            this.letterBox19.ReadOnly = true;
+            this.letterBox19.Size = new System.Drawing.Size(35, 53);
+            this.letterBox19.TabIndex = 18;
+            // 
+            // letterBox18
+            // 
+            this.letterBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox18.Location = new System.Drawing.Point(329, 95);
+            this.letterBox18.Name = "letterBox18";
+            this.letterBox18.ReadOnly = true;
+            this.letterBox18.Size = new System.Drawing.Size(35, 53);
+            this.letterBox18.TabIndex = 17;
+            // 
+            // letterBox17
+            // 
+            this.letterBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox17.Location = new System.Drawing.Point(288, 95);
+            this.letterBox17.Name = "letterBox17";
+            this.letterBox17.ReadOnly = true;
+            this.letterBox17.Size = new System.Drawing.Size(35, 53);
+            this.letterBox17.TabIndex = 16;
+            // 
+            // letterBox16
+            // 
+            this.letterBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox16.Location = new System.Drawing.Point(247, 95);
+            this.letterBox16.Name = "letterBox16";
+            this.letterBox16.ReadOnly = true;
+            this.letterBox16.Size = new System.Drawing.Size(35, 53);
+            this.letterBox16.TabIndex = 15;
+            // 
+            // letterBox15
+            // 
+            this.letterBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox15.Location = new System.Drawing.Point(206, 95);
+            this.letterBox15.Name = "letterBox15";
+            this.letterBox15.ReadOnly = true;
+            this.letterBox15.Size = new System.Drawing.Size(35, 53);
+            this.letterBox15.TabIndex = 14;
+            // 
+            // letterBox14
+            // 
+            this.letterBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox14.Location = new System.Drawing.Point(165, 95);
+            this.letterBox14.Name = "letterBox14";
+            this.letterBox14.ReadOnly = true;
+            this.letterBox14.Size = new System.Drawing.Size(35, 53);
+            this.letterBox14.TabIndex = 13;
+            // 
+            // letterBox12
+            // 
+            this.letterBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox12.Location = new System.Drawing.Point(616, 25);
+            this.letterBox12.Name = "letterBox12";
+            this.letterBox12.ReadOnly = true;
+            this.letterBox12.Size = new System.Drawing.Size(35, 53);
+            this.letterBox12.TabIndex = 12;
+            // 
+            // letterBox11
+            // 
+            this.letterBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox11.Location = new System.Drawing.Point(575, 25);
+            this.letterBox11.Name = "letterBox11";
+            this.letterBox11.ReadOnly = true;
+            this.letterBox11.Size = new System.Drawing.Size(35, 53);
+            this.letterBox11.TabIndex = 11;
+            // 
+            // letterBox10
+            // 
+            this.letterBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox10.Location = new System.Drawing.Point(534, 25);
+            this.letterBox10.Name = "letterBox10";
+            this.letterBox10.ReadOnly = true;
+            this.letterBox10.Size = new System.Drawing.Size(35, 53);
+            this.letterBox10.TabIndex = 10;
+            // 
+            // letterBox9
+            // 
+            this.letterBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox9.Location = new System.Drawing.Point(493, 25);
+            this.letterBox9.Name = "letterBox9";
+            this.letterBox9.ReadOnly = true;
+            this.letterBox9.Size = new System.Drawing.Size(35, 53);
+            this.letterBox9.TabIndex = 9;
+            // 
+            // letterBox8
+            // 
+            this.letterBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox8.Location = new System.Drawing.Point(452, 25);
+            this.letterBox8.Name = "letterBox8";
+            this.letterBox8.ReadOnly = true;
+            this.letterBox8.Size = new System.Drawing.Size(35, 53);
+            this.letterBox8.TabIndex = 8;
+            // 
+            // letterBox7
+            // 
+            this.letterBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox7.Location = new System.Drawing.Point(411, 25);
+            this.letterBox7.Name = "letterBox7";
+            this.letterBox7.ReadOnly = true;
+            this.letterBox7.Size = new System.Drawing.Size(35, 53);
+            this.letterBox7.TabIndex = 7;
+            // 
+            // letterBox6
+            // 
+            this.letterBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox6.Location = new System.Drawing.Point(370, 25);
+            this.letterBox6.Name = "letterBox6";
+            this.letterBox6.ReadOnly = true;
+            this.letterBox6.Size = new System.Drawing.Size(35, 53);
+            this.letterBox6.TabIndex = 6;
+            // 
+            // letterBox5
+            // 
+            this.letterBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox5.Location = new System.Drawing.Point(329, 25);
+            this.letterBox5.Name = "letterBox5";
+            this.letterBox5.ReadOnly = true;
+            this.letterBox5.Size = new System.Drawing.Size(35, 53);
+            this.letterBox5.TabIndex = 5;
+            // 
+            // letterBox4
+            // 
+            this.letterBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox4.Location = new System.Drawing.Point(288, 25);
+            this.letterBox4.Name = "letterBox4";
+            this.letterBox4.ReadOnly = true;
+            this.letterBox4.Size = new System.Drawing.Size(35, 53);
+            this.letterBox4.TabIndex = 4;
+            // 
+            // letterBox3
+            // 
+            this.letterBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox3.Location = new System.Drawing.Point(247, 25);
+            this.letterBox3.Name = "letterBox3";
+            this.letterBox3.ReadOnly = true;
+            this.letterBox3.Size = new System.Drawing.Size(35, 53);
+            this.letterBox3.TabIndex = 3;
+            // 
+            // letterBox2
+            // 
+            this.letterBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox2.Location = new System.Drawing.Point(206, 25);
+            this.letterBox2.Name = "letterBox2";
+            this.letterBox2.ReadOnly = true;
+            this.letterBox2.Size = new System.Drawing.Size(35, 53);
+            this.letterBox2.TabIndex = 2;
+            // 
+            // letterBox1
+            // 
+            this.letterBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.letterBox1.Location = new System.Drawing.Point(165, 25);
+            this.letterBox1.Name = "letterBox1";
+            this.letterBox1.ReadOnly = true;
+            this.letterBox1.Size = new System.Drawing.Size(35, 53);
+            this.letterBox1.TabIndex = 1;
             // 
             // GenerateBtn
             // 
