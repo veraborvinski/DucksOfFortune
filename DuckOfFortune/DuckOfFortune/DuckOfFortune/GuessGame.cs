@@ -118,8 +118,10 @@ namespace DuckOfFortune
             string[] parts = chosenline.Split(',');
             Console.WriteLine(parts[0]);
             Console.WriteLine(parts[1]);
+            Console.WriteLine(parts[2]);
             char[] characters = parts[1].ToCharArray();
-            HintLbl.Text = "Hint: " + parts[0];
+            QuestLbl.Text = "Question: " + parts[0];
+            HintLbl.Text = "Hint: " + parts[2];
             var longy = characters.Length;
             if (longy <= 52)
             {
@@ -156,6 +158,11 @@ namespace DuckOfFortune
             endGameForm endGame = new endGameForm();
             endGame.Show();
             this.Hide();
+        }
+
+        private void QuestLbl_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
