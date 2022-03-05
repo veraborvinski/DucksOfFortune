@@ -63,17 +63,31 @@ namespace DuckOfFortune
             if (giveupcheck2 == 2)
             {
                 var count2 = 0;
+                var whiteCounter = 0;
+                var sleepTime = 500;
                 while (count2 < 52)
                 {
                     var chosenbox = "letterBox" + (count2 + 1);
                     Console.WriteLine(chosenbox);
                     TextBox tbx = this.Controls.Find(chosenbox, true).FirstOrDefault() as TextBox;
+                    if (tbx.BackColor != Color.Black) {
+                        whiteCounter++;
+                        if (whiteCounter == 3) {
+                            sleepTime = 0;
+                        }
+                    }
+                    if (tbx.ForeColor == Color.Black)
+                    {
+                        whiteCounter=0;
+                    }
                     Console.WriteLine(tbx.Text);
                     tbx.ForeColor = Color.White;
                     tbx.Refresh();
+                    Thread.Sleep(sleepTime);
+                    
                     count2++;
                 }
-                Thread.Sleep(2000);
+                
                 this.Hide();
                 string[] lines = File.ReadAllLines("misfortunes.txt");
                 Wheel misWheel = new Wheel(lines);
