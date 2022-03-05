@@ -209,7 +209,7 @@ namespace DuckOfFortune
                         tbx.BackColor = Color.Black;
                     }
 
-                    if(letterToWrite is ';')
+                    if(letterToWrite is ';' || letterToWrite is '-')
                     {
                         tbx.ForeColor = Color.White;
                     }
