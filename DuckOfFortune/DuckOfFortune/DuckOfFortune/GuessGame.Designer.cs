@@ -82,6 +82,8 @@
             this.letterBox2 = new System.Windows.Forms.TextBox();
             this.letterBox1 = new System.Windows.Forms.TextBox();
             this.GenerateBtn = new System.Windows.Forms.Button();
+            this.guessBox = new System.Windows.Forms.TextBox();
+            this.guessBtn = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -616,7 +618,7 @@
             // 
             // GenerateBtn
             // 
-            this.GenerateBtn.Location = new System.Drawing.Point(253, 448);
+            this.GenerateBtn.Location = new System.Drawing.Point(28, 335);
             this.GenerateBtn.Name = "GenerateBtn";
             this.GenerateBtn.Size = new System.Drawing.Size(105, 57);
             this.GenerateBtn.TabIndex = 1;
@@ -624,11 +626,31 @@
             this.GenerateBtn.UseVisualStyleBackColor = true;
             this.GenerateBtn.Click += new System.EventHandler(this.GenerateBtn_Click);
             // 
+            // guessBox
+            // 
+            this.guessBox.Location = new System.Drawing.Point(232, 439);
+            this.guessBox.MaxLength = 1;
+            this.guessBox.Name = "guessBox";
+            this.guessBox.Size = new System.Drawing.Size(117, 26);
+            this.guessBox.TabIndex = 2;
+            // 
+            // guessBtn
+            // 
+            this.guessBtn.Location = new System.Drawing.Point(356, 429);
+            this.guessBtn.Name = "guessBtn";
+            this.guessBtn.Size = new System.Drawing.Size(75, 47);
+            this.guessBtn.TabIndex = 3;
+            this.guessBtn.Text = "Guess";
+            this.guessBtn.UseVisualStyleBackColor = true;
+            this.guessBtn.Click += new System.EventHandler(this.guessBtn_Click);
+            // 
             // GuessGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1178, 844);
+            this.Controls.Add(this.guessBtn);
+            this.Controls.Add(this.guessBox);
             this.Controls.Add(this.GenerateBtn);
             this.Controls.Add(this.groupBox1);
             this.Name = "GuessGame";
@@ -637,6 +659,7 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -696,5 +719,7 @@
         private System.Windows.Forms.TextBox letterBox2;
         private System.Windows.Forms.TextBox letterBox1;
         private System.Windows.Forms.Button GenerateBtn;
+        private System.Windows.Forms.TextBox guessBox;
+        private System.Windows.Forms.Button guessBtn;
     }
 }
