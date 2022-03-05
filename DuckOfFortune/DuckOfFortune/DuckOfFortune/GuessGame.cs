@@ -171,7 +171,7 @@ namespace DuckOfFortune
             var chosenline = lines[chosen_index];
             string[] parts = chosenline.Split(',');
             char[] characters = parts[1].ToCharArray();
-            //QuestLbl.Text = "Question: " + parts[0];
+            QuestLbl.Text = "Question: " + parts[0];
             HintLbl.Text = "Hint: " + parts[2];
             var longy = characters.Length;
             if (longy <= 52)
@@ -235,7 +235,7 @@ namespace DuckOfFortune
             var chosenline = lines[chosen_index];
             string[] parts = chosenline.Split(',');
             char[] characters = parts[1].ToCharArray();
-            //QuestLbl.Text = "Question: " + parts[0];
+            QuestLbl.Text = "Question: " + parts[0];
             HintLbl.Text = "Hint: " + parts[2];
             var longy = characters.Length;
             if (longy <= 52)
@@ -276,5 +276,6 @@ namespace DuckOfFortune
         {
 
         }
+
     }
 }
