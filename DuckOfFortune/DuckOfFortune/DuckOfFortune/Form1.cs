@@ -27,6 +27,7 @@ namespace DuckOfFortune
 
         private void btnScores_Click(object sender, EventArgs e)
         {
+            this.Hide();
             HighScore highscore = new HighScore();
             highscore.Show();
         }

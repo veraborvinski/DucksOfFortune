@@ -67,7 +67,7 @@ namespace DuckOfFortune
         private void btnYes_Click(object sender, EventArgs e)
         {
             string startupPath = System.IO.Directory.GetCurrentDirectory();
-            File.AppendAllText(@"Scores.txt", name + ",0" + Environment.NewLine);
+            System.IO.File.WriteAllText(@"currentplayer.txt", name+",0");
 
             this.Hide();
             var guessgame = new GuessGame();

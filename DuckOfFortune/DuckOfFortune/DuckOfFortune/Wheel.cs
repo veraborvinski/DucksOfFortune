@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -40,50 +42,88 @@ namespace DuckOfFortune
             timer1.Enabled = false;
             button2.Text = "";
             button3.Text = Prizes[r.Next(Prizes.Length)];
-            if (button3.Text.Equals("£1")) { 
+
+            var lastLine = File.ReadLines("currentplayer.txt").Last();
+            string[] getscore = lastLine.Split(',');
+            var playerscore = getscore[1];
+            var playername = getscore[0];
+
+            int playerscore2 = Int32.Parse(playerscore);
+
+            if (button3.Text.Equals("£1")) {
+                playerscore2 = playerscore2 + 1;
             }
-            else if (button3.Text.Equals("£100"))
+            if (button3.Text.Equals("£100"))
+            {
+                playerscore2 = playerscore2 + 100;
+            }
+            if (button3.Text.Equals("£250"))
+            {
+                playerscore2 = playerscore2 + 250;
+            }
+            if (button3.Text.Equals("£500"))
+            {
+                playerscore2 = playerscore2 + 500;
+            }
+            if (button3.Text.Equals("£1000"))
+            {
+                playerscore2 = playerscore2 + 1000;
+            }
+            if (button3.Text.Equals("double"))
+            {
+                playerscore2 = playerscore2*2;
+            }
+            if (button3.Text.Equals("minigame"))
             {
             }
-            else if (button3.Text.Equals("£250"))
+            if (button3.Text.Equals("(-£100)"))
             {
+                playerscore2 = playerscore2 - 100;
             }
-            else if (button3.Text.Equals("£500"))
+            if (button3.Text.Equals("(-£250)"))
             {
+                playerscore2 = playerscore2 - 250;
             }
-            else if (button3.Text.Equals("£1000"))
+            if (button3.Text.Equals("(-£500)"))
             {
+                playerscore2 = playerscore2 - 500;
             }
-            else if (button3.Text.Equals("double"))
+            if (button3.Text.Equals("(-£1000)"))
             {
+                playerscore2 = playerscore2 - 1000;
             }
-            else if (button3.Text.Equals("minigame"))
+            if (button3.Text.Equals("halve"))
             {
+                playerscore2 = playerscore2/2;
             }
-            else if (button3.Text.Equals("(-£100)"))
+            if (button3.Text.Equals("give £1,000,000 to Amazon"))
             {
+                playerscore2 = playerscore2 - 1000000;
             }
-            else if (button3.Text.Equals("(-£250)"))
+
+            System.IO.File.WriteAllText(@"currentplayer.txt", playername+","+playerscore2);
+            var lastLine2 = File.ReadLines("currentplayer.txt").Last();
+            string[] getscore2 = lastLine2.Split(',');
+            lblScore.Text = "You have: £" + getscore2[1];
+            int checkscore = Int32.Parse(getscore2[1]);
+            bool negative = checkscore < 0;
+            if (negative == true)
             {
+                var message = "You have lost";
+                MessageBox.Show(message);
+                this.Hide();
+                MainMenu mainMenu = new MainMenu();
+                mainMenu.Show();
             }
-            else if (button3.Text.Equals("(-£500)"))
+
+            else
             {
+                Thread.Sleep(2000);
+                this.Hide();
+                GuessGame guessGame = new GuessGame();
+                guessGame.Show();
             }
-            else if (button3.Text.Equals("(-£1000)"))
-            {
-            }
-            else if (button3.Text.Equals("halve"))
-            {
-            }
-            else if (button3.Text.Equals("pay a fine"))
-            {
-            }
-            else if (button3.Text.Equals("give £1,000,000 to Amazon"))
-            {
-            }
-            else if (button3.Text.Equals("game over"))
-            {
-            }
+
         }
 
         private void timer1_Tick_1(object sender, EventArgs e)
@@ -95,6 +135,9 @@ namespace DuckOfFortune
         {
             button2.Hide();
             button1.Show();
+            var lastLine = File.ReadLines("currentplayer.txt").Last();
+            string[] getscore = lastLine.Split(',');
+            lblScore.Text = "You have: £" + getscore[1];
         }
     }
 }

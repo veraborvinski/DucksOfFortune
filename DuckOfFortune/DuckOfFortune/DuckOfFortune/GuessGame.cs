@@ -153,6 +153,9 @@ namespace DuckOfFortune
 
         private void GuessGame_Load(object sender, EventArgs e)
         {
+            var lastLine = File.ReadLines("currentplayer.txt").Last();
+            string[] getscore = lastLine.Split(',');
+            lblScore.Text = "You have: £" + getscore[1];
             Global2.giveupchecky = "0";
             Global.guesseslefty = "5";
             string[] lines = File.ReadAllLines("Phrases.txt");
@@ -196,8 +199,15 @@ namespace DuckOfFortune
 
         private void button1_Click(object sender, EventArgs e)
         {
-            endGameForm endGame = new endGameForm();
-            endGame.Show();
+            var lastLine = File.ReadLines("currentplayer.txt").Last();
+            string[] getscore = lastLine.Split(',');
+            
+
+            File.AppendAllText(@"Scores.txt", getscore[0]+","+getscore[1] + Environment.NewLine);
+
+            this.Hide();
+            MainMenu mainMenu = new MainMenu();
+            mainMenu.Show();
             this.Hide();
         }
     }
