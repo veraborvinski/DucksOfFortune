@@ -160,6 +160,7 @@
             this.letterBox26.ReadOnly = true;
             this.letterBox26.Size = new System.Drawing.Size(36, 53);
             this.letterBox26.TabIndex = 60;
+            this.letterBox26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox40
             // 
@@ -169,6 +170,7 @@
             this.letterBox40.ReadOnly = true;
             this.letterBox40.Size = new System.Drawing.Size(36, 53);
             this.letterBox40.TabIndex = 59;
+            this.letterBox40.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox27
             // 
@@ -178,6 +180,7 @@
             this.letterBox27.ReadOnly = true;
             this.letterBox27.Size = new System.Drawing.Size(36, 53);
             this.letterBox27.TabIndex = 50;
+            this.letterBox27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox13
             // 
@@ -187,6 +190,7 @@
             this.letterBox13.ReadOnly = true;
             this.letterBox13.Size = new System.Drawing.Size(36, 53);
             this.letterBox13.TabIndex = 49;
+            this.letterBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox52
             // 
@@ -196,6 +200,7 @@
             this.letterBox52.ReadOnly = true;
             this.letterBox52.Size = new System.Drawing.Size(36, 53);
             this.letterBox52.TabIndex = 48;
+            this.letterBox52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox51
             // 
@@ -205,6 +210,7 @@
             this.letterBox51.ReadOnly = true;
             this.letterBox51.Size = new System.Drawing.Size(36, 53);
             this.letterBox51.TabIndex = 47;
+            this.letterBox51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox50
             // 
@@ -214,6 +220,7 @@
             this.letterBox50.ReadOnly = true;
             this.letterBox50.Size = new System.Drawing.Size(36, 53);
             this.letterBox50.TabIndex = 46;
+            this.letterBox50.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox49
             // 
@@ -223,6 +230,7 @@
             this.letterBox49.ReadOnly = true;
             this.letterBox49.Size = new System.Drawing.Size(36, 53);
             this.letterBox49.TabIndex = 45;
+            this.letterBox49.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox48
             // 
@@ -232,6 +240,7 @@
             this.letterBox48.ReadOnly = true;
             this.letterBox48.Size = new System.Drawing.Size(36, 53);
             this.letterBox48.TabIndex = 44;
+            this.letterBox48.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox47
             // 
@@ -241,6 +250,7 @@
             this.letterBox47.ReadOnly = true;
             this.letterBox47.Size = new System.Drawing.Size(36, 53);
             this.letterBox47.TabIndex = 43;
+            this.letterBox47.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox46
             // 
@@ -250,6 +260,7 @@
             this.letterBox46.ReadOnly = true;
             this.letterBox46.Size = new System.Drawing.Size(36, 53);
             this.letterBox46.TabIndex = 42;
+            this.letterBox46.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox45
             // 
@@ -259,6 +270,7 @@
             this.letterBox45.ReadOnly = true;
             this.letterBox45.Size = new System.Drawing.Size(36, 53);
             this.letterBox45.TabIndex = 41;
+            this.letterBox45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox44
             // 
@@ -268,6 +280,7 @@
             this.letterBox44.ReadOnly = true;
             this.letterBox44.Size = new System.Drawing.Size(36, 53);
             this.letterBox44.TabIndex = 40;
+            this.letterBox44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox43
             // 
@@ -277,6 +290,7 @@
             this.letterBox43.ReadOnly = true;
             this.letterBox43.Size = new System.Drawing.Size(36, 53);
             this.letterBox43.TabIndex = 39;
+            this.letterBox43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox42
             // 
@@ -286,6 +300,7 @@
             this.letterBox42.ReadOnly = true;
             this.letterBox42.Size = new System.Drawing.Size(36, 53);
             this.letterBox42.TabIndex = 38;
+            this.letterBox42.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox41
             // 
@@ -295,6 +310,7 @@
             this.letterBox41.ReadOnly = true;
             this.letterBox41.Size = new System.Drawing.Size(36, 53);
             this.letterBox41.TabIndex = 37;
+            this.letterBox41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox39
             // 
@@ -304,6 +320,7 @@
             this.letterBox39.ReadOnly = true;
             this.letterBox39.Size = new System.Drawing.Size(36, 53);
             this.letterBox39.TabIndex = 36;
+            this.letterBox39.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox38
             // 
@@ -313,6 +330,7 @@
             this.letterBox38.ReadOnly = true;
             this.letterBox38.Size = new System.Drawing.Size(36, 53);
             this.letterBox38.TabIndex = 35;
+            this.letterBox38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox37
             // 
@@ -322,6 +340,7 @@
             this.letterBox37.ReadOnly = true;
             this.letterBox37.Size = new System.Drawing.Size(36, 53);
             this.letterBox37.TabIndex = 34;
+            this.letterBox37.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox36
             // 
@@ -331,6 +350,7 @@
             this.letterBox36.ReadOnly = true;
             this.letterBox36.Size = new System.Drawing.Size(36, 53);
             this.letterBox36.TabIndex = 33;
+            this.letterBox36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox35
             // 
@@ -340,6 +360,7 @@
             this.letterBox35.ReadOnly = true;
             this.letterBox35.Size = new System.Drawing.Size(36, 53);
             this.letterBox35.TabIndex = 32;
+            this.letterBox35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox34
             // 
@@ -349,6 +370,7 @@
             this.letterBox34.ReadOnly = true;
             this.letterBox34.Size = new System.Drawing.Size(36, 53);
             this.letterBox34.TabIndex = 31;
+            this.letterBox34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox33
             // 
@@ -358,6 +380,7 @@
             this.letterBox33.ReadOnly = true;
             this.letterBox33.Size = new System.Drawing.Size(36, 53);
             this.letterBox33.TabIndex = 30;
+            this.letterBox33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox32
             // 
@@ -367,6 +390,7 @@
             this.letterBox32.ReadOnly = true;
             this.letterBox32.Size = new System.Drawing.Size(36, 53);
             this.letterBox32.TabIndex = 29;
+            this.letterBox32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox31
             // 
@@ -376,6 +400,7 @@
             this.letterBox31.ReadOnly = true;
             this.letterBox31.Size = new System.Drawing.Size(36, 53);
             this.letterBox31.TabIndex = 28;
+            this.letterBox31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox30
             // 
@@ -385,6 +410,7 @@
             this.letterBox30.ReadOnly = true;
             this.letterBox30.Size = new System.Drawing.Size(36, 53);
             this.letterBox30.TabIndex = 27;
+            this.letterBox30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox29
             // 
@@ -394,6 +420,7 @@
             this.letterBox29.ReadOnly = true;
             this.letterBox29.Size = new System.Drawing.Size(36, 53);
             this.letterBox29.TabIndex = 26;
+            this.letterBox29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox28
             // 
@@ -403,6 +430,7 @@
             this.letterBox28.ReadOnly = true;
             this.letterBox28.Size = new System.Drawing.Size(36, 53);
             this.letterBox28.TabIndex = 25;
+            this.letterBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox25
             // 
@@ -412,6 +440,7 @@
             this.letterBox25.ReadOnly = true;
             this.letterBox25.Size = new System.Drawing.Size(36, 53);
             this.letterBox25.TabIndex = 24;
+            this.letterBox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox24
             // 
@@ -421,6 +450,7 @@
             this.letterBox24.ReadOnly = true;
             this.letterBox24.Size = new System.Drawing.Size(36, 53);
             this.letterBox24.TabIndex = 23;
+            this.letterBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox23
             // 
@@ -430,6 +460,7 @@
             this.letterBox23.ReadOnly = true;
             this.letterBox23.Size = new System.Drawing.Size(36, 53);
             this.letterBox23.TabIndex = 22;
+            this.letterBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox22
             // 
@@ -439,6 +470,7 @@
             this.letterBox22.ReadOnly = true;
             this.letterBox22.Size = new System.Drawing.Size(36, 53);
             this.letterBox22.TabIndex = 21;
+            this.letterBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox21
             // 
@@ -448,6 +480,7 @@
             this.letterBox21.ReadOnly = true;
             this.letterBox21.Size = new System.Drawing.Size(36, 53);
             this.letterBox21.TabIndex = 20;
+            this.letterBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox20
             // 
@@ -457,6 +490,7 @@
             this.letterBox20.ReadOnly = true;
             this.letterBox20.Size = new System.Drawing.Size(36, 53);
             this.letterBox20.TabIndex = 19;
+            this.letterBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox19
             // 
@@ -466,6 +500,7 @@
             this.letterBox19.ReadOnly = true;
             this.letterBox19.Size = new System.Drawing.Size(36, 53);
             this.letterBox19.TabIndex = 18;
+            this.letterBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox18
             // 
@@ -475,6 +510,7 @@
             this.letterBox18.ReadOnly = true;
             this.letterBox18.Size = new System.Drawing.Size(36, 53);
             this.letterBox18.TabIndex = 17;
+            this.letterBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox17
             // 
@@ -484,6 +520,7 @@
             this.letterBox17.ReadOnly = true;
             this.letterBox17.Size = new System.Drawing.Size(36, 53);
             this.letterBox17.TabIndex = 16;
+            this.letterBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox16
             // 
@@ -493,6 +530,7 @@
             this.letterBox16.ReadOnly = true;
             this.letterBox16.Size = new System.Drawing.Size(36, 53);
             this.letterBox16.TabIndex = 15;
+            this.letterBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox15
             // 
@@ -502,6 +540,7 @@
             this.letterBox15.ReadOnly = true;
             this.letterBox15.Size = new System.Drawing.Size(36, 53);
             this.letterBox15.TabIndex = 14;
+            this.letterBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox14
             // 
@@ -511,6 +550,7 @@
             this.letterBox14.ReadOnly = true;
             this.letterBox14.Size = new System.Drawing.Size(36, 53);
             this.letterBox14.TabIndex = 13;
+            this.letterBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox12
             // 
@@ -520,6 +560,7 @@
             this.letterBox12.ReadOnly = true;
             this.letterBox12.Size = new System.Drawing.Size(36, 53);
             this.letterBox12.TabIndex = 12;
+            this.letterBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox11
             // 
@@ -529,6 +570,7 @@
             this.letterBox11.ReadOnly = true;
             this.letterBox11.Size = new System.Drawing.Size(36, 53);
             this.letterBox11.TabIndex = 11;
+            this.letterBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox10
             // 
@@ -538,6 +580,7 @@
             this.letterBox10.ReadOnly = true;
             this.letterBox10.Size = new System.Drawing.Size(36, 53);
             this.letterBox10.TabIndex = 10;
+            this.letterBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox9
             // 
@@ -547,6 +590,7 @@
             this.letterBox9.ReadOnly = true;
             this.letterBox9.Size = new System.Drawing.Size(36, 53);
             this.letterBox9.TabIndex = 9;
+            this.letterBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox8
             // 
@@ -556,6 +600,7 @@
             this.letterBox8.ReadOnly = true;
             this.letterBox8.Size = new System.Drawing.Size(36, 53);
             this.letterBox8.TabIndex = 8;
+            this.letterBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox7
             // 
@@ -565,6 +610,7 @@
             this.letterBox7.ReadOnly = true;
             this.letterBox7.Size = new System.Drawing.Size(36, 53);
             this.letterBox7.TabIndex = 7;
+            this.letterBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox6
             // 
@@ -574,6 +620,7 @@
             this.letterBox6.ReadOnly = true;
             this.letterBox6.Size = new System.Drawing.Size(36, 53);
             this.letterBox6.TabIndex = 6;
+            this.letterBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox5
             // 
@@ -583,6 +630,7 @@
             this.letterBox5.ReadOnly = true;
             this.letterBox5.Size = new System.Drawing.Size(36, 53);
             this.letterBox5.TabIndex = 5;
+            this.letterBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox4
             // 
@@ -592,6 +640,7 @@
             this.letterBox4.ReadOnly = true;
             this.letterBox4.Size = new System.Drawing.Size(36, 53);
             this.letterBox4.TabIndex = 4;
+            this.letterBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox3
             // 
@@ -601,6 +650,7 @@
             this.letterBox3.ReadOnly = true;
             this.letterBox3.Size = new System.Drawing.Size(36, 53);
             this.letterBox3.TabIndex = 3;
+            this.letterBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox2
             // 
@@ -610,6 +660,7 @@
             this.letterBox2.ReadOnly = true;
             this.letterBox2.Size = new System.Drawing.Size(36, 53);
             this.letterBox2.TabIndex = 2;
+            this.letterBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // letterBox1
             // 
@@ -619,6 +670,7 @@
             this.letterBox1.ReadOnly = true;
             this.letterBox1.Size = new System.Drawing.Size(36, 53);
             this.letterBox1.TabIndex = 1;
+            this.letterBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // GenerateBtn
             // 
