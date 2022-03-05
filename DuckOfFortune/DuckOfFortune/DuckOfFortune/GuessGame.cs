@@ -35,6 +35,7 @@ namespace DuckOfFortune
 
         private void GenerateBtn_Click(object sender, EventArgs e)
         {
+            this.Hide();
             string[] lines = File.ReadAllLines("misfortunes.txt");
             Wheel misWheel = new Wheel(lines);
             misWheel.Show();
