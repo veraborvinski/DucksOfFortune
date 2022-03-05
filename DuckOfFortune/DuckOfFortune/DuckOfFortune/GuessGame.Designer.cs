@@ -678,7 +678,7 @@
             this.GenerateBtn.Name = "GenerateBtn";
             this.GenerateBtn.Size = new System.Drawing.Size(70, 37);
             this.GenerateBtn.TabIndex = 1;
-            this.GenerateBtn.Text = "Generate";
+            this.GenerateBtn.Text = "Give up";
             this.GenerateBtn.UseVisualStyleBackColor = true;
             this.GenerateBtn.Click += new System.EventHandler(this.GenerateBtn_Click);
             // 
