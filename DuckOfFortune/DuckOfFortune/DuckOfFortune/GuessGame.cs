@@ -115,8 +115,11 @@ namespace DuckOfFortune
             string[] lines = File.ReadAllLines("Phrases.txt");
             Random rand = new Random();
             var chosenline = lines[rand.Next(lines.Length)];
-            Console.WriteLine(chosenline);
-            char[] characters = chosenline.ToCharArray();
+            string[] parts = chosenline.Split(',');
+            Console.WriteLine(parts[0]);
+            Console.WriteLine(parts[1]);
+            char[] characters = parts[1].ToCharArray();
+            HintLbl.Text = "Hint: " + parts[0];
             var longy = characters.Length;
             if (longy <= 52)
             {
