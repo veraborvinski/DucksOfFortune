@@ -737,6 +737,7 @@
             this.HintLbl.Size = new System.Drawing.Size(299, 64);
             this.HintLbl.TabIndex = 0;
             this.HintLbl.Text = "Hint: ";
+            this.HintLbl.Click += new System.EventHandler(this.HintLbl_Click);
             // 
             // lblScore
             // 
@@ -758,7 +759,7 @@
             this.QuestLbl.Size = new System.Drawing.Size(299, 103);
             this.QuestLbl.TabIndex = 7;
             this.QuestLbl.Text = "Question:";
-            this.QuestLbl.Click += new System.EventHandler(this.QuestLbl_Click_1);
+            this.QuestLbl.Click += new System.EventHandler(this.QuestLbl_Click);
             // 
             // GuessGame
             // 

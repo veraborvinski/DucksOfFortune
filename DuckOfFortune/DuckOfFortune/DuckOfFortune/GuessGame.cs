@@ -220,11 +220,6 @@ namespace DuckOfFortune
             this.Hide();
         }
 
-        private void QuestLbl_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void GenerateQuestionAndHint()
         {
             int chosen_index;
@@ -274,8 +269,7 @@ namespace DuckOfFortune
         {
 
         }
-
-        private void QuestLbl_Click_1(object sender, EventArgs e)
+        private void QuestLbl_Click(object sender, EventArgs e)
         {
 
         }
