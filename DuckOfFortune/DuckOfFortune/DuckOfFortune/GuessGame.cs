@@ -109,18 +109,18 @@ namespace DuckOfFortune
 
         }
 
+        static string[] lines = File.ReadAllLines("Phrases.txt");
+        bool[] picked_questions = new bool[lines.Length];
+
         private void GuessGame_Load(object sender, EventArgs e)
         {
             Global.guesseslefty = "5";
-            string[] lines = File.ReadAllLines("Phrases.txt");
-            Console.WriteLine(lines[0]);
+            
             Random rand = new Random();
-            var chosenline = lines[rand.Next(lines.Length)];
-            Console.WriteLine(chosenline);
+            int chosen_index = rand.Next(lines.Length);
+            picked_questions[chosen_index] = true;
+            var chosenline = lines[chosen_index];
             string[] parts = chosenline.Split(',');
-            Console.WriteLine(parts[0]);
-            Console.WriteLine(parts[1]);
-            Console.WriteLine(parts[2]);
             char[] characters = parts[1].ToCharArray();
             QuestLbl.Text = "Question: " + parts[0];
             HintLbl.Text = "Hint: " + parts[2];
@@ -165,6 +165,20 @@ namespace DuckOfFortune
         private void QuestLbl_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void GenerateQuestion()
+        {
+            int chosen_index;
+            Random rand = new Random();
+            do
+            {
+                chosen_index = rand.Next(lines.Length);
+            } while (picked_questions[chosen_index] is true);
+
+            picked_questions[chosen_index] = true;
+            Console.WriteLine(lines[chosen_index]);
+            QuestLbl.Text = lines[chosen_index];
         }
     }
 }
