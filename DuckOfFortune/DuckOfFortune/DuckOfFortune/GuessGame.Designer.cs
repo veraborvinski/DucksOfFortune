@@ -85,6 +85,7 @@
             this.guessBox = new System.Windows.Forms.TextBox();
             this.guessBtn = new System.Windows.Forms.Button();
             this.GuessLbl = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -714,11 +715,22 @@
             this.GuessLbl.Text = "Guesses Left: 5";
             this.GuessLbl.Click += new System.EventHandler(this.label1_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(701, 218);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(82, 31);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "End game";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // GuessGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(785, 549);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.GuessLbl);
             this.Controls.Add(this.guessBtn);
             this.Controls.Add(this.guessBox);
@@ -795,5 +807,6 @@
         private System.Windows.Forms.TextBox guessBox;
         private System.Windows.Forms.Button guessBtn;
         private System.Windows.Forms.Label GuessLbl;
+        private System.Windows.Forms.Button button1;
     }
 }

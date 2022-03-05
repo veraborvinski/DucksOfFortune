@@ -38,7 +38,7 @@ namespace DuckOfFortune
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(30, 12);
+            this.button1.Location = new System.Drawing.Point(32, 21);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(209, 193);
             this.button1.TabIndex = 0;
@@ -48,7 +48,7 @@ namespace DuckOfFortune
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(30, 230);
+            this.button2.Location = new System.Drawing.Point(32, 245);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(209, 193);
             this.button2.TabIndex = 1;
@@ -57,7 +57,7 @@ namespace DuckOfFortune
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(503, 114);
+            this.button3.Location = new System.Drawing.Point(538, 103);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(209, 193);
             this.button3.TabIndex = 2;
@@ -77,6 +77,7 @@ namespace DuckOfFortune
             this.Controls.Add(this.button1);
             this.Name = "Wheel";
             this.Text = "Wheel";
+            this.Load += new System.EventHandler(this.Wheel_Load_1);
             this.ResumeLayout(false);
 
         }
