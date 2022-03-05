@@ -23,6 +23,9 @@ namespace DuckOfFortune
             var startscreen = new StartScreen();
             startscreen.Closed += (s, args) => this.Close();
             startscreen.Show();
+            string[] prizes = new string[] { "Ducks", "Cats", "Mouse" };
+            var wheel = new Wheel(prizes);
+            wheel.Show();
         }
 
         private void btnScores_Click(object sender, EventArgs e)
