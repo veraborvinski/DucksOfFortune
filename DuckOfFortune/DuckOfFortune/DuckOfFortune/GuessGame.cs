@@ -114,7 +114,7 @@ namespace DuckOfFortune
             Global.guesseslefty = "5";
             string[] lines = File.ReadAllLines("Phrases.txt");
             Random rand = new Random();
-            var chosenline = lines[rand.Next(lines.Length)];
+            var chosenline = lines[rand.Next(lines.Length)] + ",";
             string[] parts = chosenline.Split(',');
             Console.WriteLine(parts[0]);
             Console.WriteLine(parts[1]);
