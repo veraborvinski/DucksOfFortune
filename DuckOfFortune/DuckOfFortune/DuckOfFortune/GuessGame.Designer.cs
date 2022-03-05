@@ -736,6 +736,7 @@
             this.HintLbl.Size = new System.Drawing.Size(299, 64);
             this.HintLbl.TabIndex = 0;
             this.HintLbl.Text = "Hint: ";
+            this.HintLbl.Click += new System.EventHandler(this.HintLbl_Click);
             // 
             // QuestLbl
             // 

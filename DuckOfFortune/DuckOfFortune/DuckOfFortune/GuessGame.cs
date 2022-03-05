@@ -188,6 +188,11 @@ namespace DuckOfFortune
                         tbx.ForeColor = Color.Black;
                         tbx.BackColor = Color.Black;
                     }
+
+                    if(letterToWrite is ';')
+                    {
+                        tbx.ForeColor = Color.White;
+                    }
                     count++;
                 }
             }
@@ -210,7 +215,7 @@ namespace DuckOfFortune
 
         }
 
-        private void GenerateQuestion()
+        private void GenerateQuestionAndHint()
         {
             int chosen_index;
             Random rand = new Random();
@@ -218,10 +223,46 @@ namespace DuckOfFortune
             {
                 chosen_index = rand.Next(lines.Length);
             } while (picked_questions[chosen_index] is true);
-
             picked_questions[chosen_index] = true;
-            Console.WriteLine(lines[chosen_index]);
-            QuestLbl.Text = lines[chosen_index];
+            var chosenline = lines[chosen_index];
+            string[] parts = chosenline.Split(',');
+            char[] characters = parts[1].ToCharArray();
+            QuestLbl.Text = "Question: " + parts[0];
+            HintLbl.Text = "Hint: " + parts[2];
+            var longy = characters.Length;
+            if (longy <= 52)
+            {
+                var count = 0;
+
+                while (count < longy)
+                {
+                    var chosenbox = "letterBox" + (count + 1);
+                    Console.WriteLine(chosenbox);
+                    TextBox tbx = this.Controls.Find(chosenbox, true).FirstOrDefault() as TextBox;
+                    var letterToWrite = characters[count];
+                    var converted = letterToWrite.ToString();
+                    tbx.Text = converted;
+
+                    bool result = Char.IsWhiteSpace(letterToWrite);
+
+                    if (result != true)
+                    {
+                        tbx.ForeColor = Color.Black;
+                        tbx.BackColor = Color.Black;
+                    }
+
+                    if (letterToWrite is ';')
+                    {
+                        tbx.ForeColor = Color.White;
+                    }
+                    count++;
+                }
+            }
+        }
+
+        private void HintLbl_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
