@@ -151,6 +151,9 @@ namespace DuckOfFortune
 
         }
 
+        static string[] lines = File.ReadAllLines("Phrases.txt");
+        bool[] picked_questions = new bool[lines.Length];
+
         private void GuessGame_Load(object sender, EventArgs e)
         {
             var lastLine = File.ReadLines("currentplayer.txt").Last();
@@ -158,14 +161,15 @@ namespace DuckOfFortune
             lblScore.Text = "You have: £" + getscore[1];
             Global2.giveupchecky = "0";
             Global.guesseslefty = "5";
-            string[] lines = File.ReadAllLines("Phrases.txt");
+            
             Random rand = new Random();
-            var chosenline = lines[rand.Next(lines.Length)];
+            int chosen_index = rand.Next(lines.Length);
+            picked_questions[chosen_index] = true;
+            var chosenline = lines[chosen_index];
             string[] parts = chosenline.Split(',');
-            Console.WriteLine(parts[0]);
-            Console.WriteLine(parts[1]);
             char[] characters = parts[1].ToCharArray();
-            HintLbl.Text = "Hint: " + parts[0];
+            QuestLbl.Text = "Question: " + parts[0];
+            HintLbl.Text = "Hint: " + parts[2];
             var longy = characters.Length;
             if (longy <= 52)
             {
@@ -186,6 +190,11 @@ namespace DuckOfFortune
                     {
                         tbx.ForeColor = Color.Black;
                         tbx.BackColor = Color.Black;
+                    }
+
+                    if(letterToWrite is ';')
+                    {
+                        tbx.ForeColor = Color.White;
                     }
                     count++;
                 }
@@ -209,6 +218,61 @@ namespace DuckOfFortune
             MainMenu mainMenu = new MainMenu();
             mainMenu.Show();
             this.Hide();
+        }
+
+        private void QuestLbl_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GenerateQuestionAndHint()
+        {
+            int chosen_index;
+            Random rand = new Random();
+            do
+            {
+                chosen_index = rand.Next(lines.Length);
+            } while (picked_questions[chosen_index] is true);
+            picked_questions[chosen_index] = true;
+            var chosenline = lines[chosen_index];
+            string[] parts = chosenline.Split(',');
+            char[] characters = parts[1].ToCharArray();
+            QuestLbl.Text = "Question: " + parts[0];
+            HintLbl.Text = "Hint: " + parts[2];
+            var longy = characters.Length;
+            if (longy <= 52)
+            {
+                var count = 0;
+
+                while (count < longy)
+                {
+                    var chosenbox = "letterBox" + (count + 1);
+                    Console.WriteLine(chosenbox);
+                    TextBox tbx = this.Controls.Find(chosenbox, true).FirstOrDefault() as TextBox;
+                    var letterToWrite = characters[count];
+                    var converted = letterToWrite.ToString();
+                    tbx.Text = converted;
+
+                    bool result = Char.IsWhiteSpace(letterToWrite);
+
+                    if (result != true)
+                    {
+                        tbx.ForeColor = Color.Black;
+                        tbx.BackColor = Color.Black;
+                    }
+
+                    if (letterToWrite is ';' || letterToWrite is '-')
+                    {
+                        tbx.ForeColor = Color.White;
+                    }
+                    count++;
+                }
+            }
+        }
+
+        private void HintLbl_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
