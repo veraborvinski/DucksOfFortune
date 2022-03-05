@@ -35,38 +35,9 @@ namespace DuckOfFortune
 
         private void GenerateBtn_Click(object sender, EventArgs e)
         {
-            string[] lines = File.ReadAllLines("Phrases.txt");
-            Random rand = new Random();
-            var chosenline = lines[rand.Next(lines.Length)];
-            Console.WriteLine(chosenline);
-            char[] characters = chosenline.ToCharArray();
-            var longy = characters.Length;
-            if (longy <= 52)
-            {
-                var count = 0;
-
-                while (count < longy)
-                {
-                    var chosenbox = "letterBox" + (count + 1);
-                    Console.WriteLine(chosenbox);
-                    TextBox tbx = this.Controls.Find(chosenbox, true).FirstOrDefault() as TextBox;
-                    var letterToWrite = characters[count];
-                    var converted = letterToWrite.ToString();
-                    tbx.Text = converted;
-
-                    bool result = Char.IsWhiteSpace(letterToWrite);
-
-                    if (result != true)
-                    {
-                        tbx.ForeColor = Color.Black;
-                        tbx.BackColor = Color.Black;
-                    }
-                    count++;
-                }
-            }
-
-
-
+            string[] lines = File.ReadAllLines("misfortunes.txt");
+            Wheel misWheel = new Wheel(lines);
+            misWheel.Show();
         }
 
         private void guessBtn_Click(object sender, EventArgs e)
@@ -140,6 +111,35 @@ namespace DuckOfFortune
         private void GuessGame_Load(object sender, EventArgs e)
         {
             Global.guesseslefty = "5";
+            string[] lines = File.ReadAllLines("Phrases.txt");
+            Random rand = new Random();
+            var chosenline = lines[rand.Next(lines.Length)];
+            Console.WriteLine(chosenline);
+            char[] characters = chosenline.ToCharArray();
+            var longy = characters.Length;
+            if (longy <= 52)
+            {
+                var count = 0;
+
+                while (count < longy)
+                {
+                    var chosenbox = "letterBox" + (count + 1);
+                    Console.WriteLine(chosenbox);
+                    TextBox tbx = this.Controls.Find(chosenbox, true).FirstOrDefault() as TextBox;
+                    var letterToWrite = characters[count];
+                    var converted = letterToWrite.ToString();
+                    tbx.Text = converted;
+
+                    bool result = Char.IsWhiteSpace(letterToWrite);
+
+                    if (result != true)
+                    {
+                        tbx.ForeColor = Color.Black;
+                        tbx.BackColor = Color.Black;
+                    }
+                    count++;
+                }
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
