@@ -52,7 +52,7 @@ namespace DuckOfFortune
             timer1.Enabled = false;
             button2.Text = "";
             button3.Text = Prizes[r.Next(Prizes.Length)];
-
+            button3.Refresh();
 
             if (button3.Text.Equals("£1")) {
                 playerscore2 = playerscore2 + 1;
