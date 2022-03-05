@@ -16,10 +16,12 @@ namespace DuckOfFortune
     {
         string[] Prizes;
         Random r = new Random();
+        int curr;
         public Wheel(string[] prizes)
         {
             Prizes = prizes;
             InitializeComponent();
+            curr = 1;
         }
 
         private void Wheel_Load(object sender, EventArgs e)
@@ -129,6 +131,23 @@ namespace DuckOfFortune
         private void timer1_Tick_1(object sender, EventArgs e)
         {
             button3.Text = Prizes[r.Next(Prizes.Length)];
+            if (curr == 1) {
+                button3.Image = DuckOfFortune.Properties.Resources._2;
+                curr++;
+            }
+            else if(curr == 2) {
+                button3.Image = DuckOfFortune.Properties.Resources._3;
+                curr++;
+            }
+            else if(curr == 3) {
+                button3.Image = DuckOfFortune.Properties.Resources._4;
+                curr++;
+            }
+            else if(curr == 4) {
+                button3.Image = DuckOfFortune.Properties.Resources._1;
+                curr = 1;
+            }
+
         }
 
         private void Wheel_Load_1(object sender, EventArgs e)
@@ -138,6 +157,11 @@ namespace DuckOfFortune
             var lastLine = File.ReadLines("currentplayer.txt").Last();
             string[] getscore = lastLine.Split(',');
             lblScore.Text = "You have: £" + getscore[1];
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
