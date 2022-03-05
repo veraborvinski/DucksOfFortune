@@ -29,11 +29,13 @@ namespace DuckOfFortune
         private void button1_Click(object sender, EventArgs e)
         {
             button2.Text = "stop";
+            button1.Text = "";
         }
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            button3.Text = Prizes[r.Next(3)];
+            button2.Text = "";
+            button3.Text = Prizes[r.Next(Prizes.Length)];
         }
     }
 }
