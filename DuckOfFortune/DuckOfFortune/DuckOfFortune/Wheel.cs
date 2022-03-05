@@ -39,10 +39,7 @@ namespace DuckOfFortune
         private void button2_Click(object sender, EventArgs e)
         {
             button2.Hide();
-            timer1.Enabled = false;
-            button2.Text = "";
-            button3.Text = Prizes[r.Next(Prizes.Length)];
-
+            
             var lastLine = File.ReadLines("currentplayer.txt").Last();
             string[] getscore = lastLine.Split(',');
             var playerscore = getscore[1];
@@ -50,55 +47,73 @@ namespace DuckOfFortune
 
             int playerscore2 = Int32.Parse(playerscore);
 
+            timer1.Enabled = false;
+            button2.Text = "";
+            button3.Text = Prizes[r.Next(Prizes.Length)];
+
+
             if (button3.Text.Equals("£1")) {
                 playerscore2 = playerscore2 + 1;
+                Console.WriteLine("1");
             }
             if (button3.Text.Equals("£100"))
             {
                 playerscore2 = playerscore2 + 100;
+                Console.WriteLine("100");
             }
             if (button3.Text.Equals("£250"))
             {
                 playerscore2 = playerscore2 + 250;
+                Console.WriteLine("250");
             }
             if (button3.Text.Equals("£500"))
             {
                 playerscore2 = playerscore2 + 500;
+                Console.WriteLine("500");
             }
             if (button3.Text.Equals("£1000"))
             {
                 playerscore2 = playerscore2 + 1000;
+                Console.WriteLine("1000");
             }
             if (button3.Text.Equals("double"))
             {
                 playerscore2 = playerscore2*2;
+                Console.WriteLine("x2");
             }
             if (button3.Text.Equals("minigame"))
             {
+                Console.WriteLine("mini");
             }
             if (button3.Text.Equals("(-£100)"))
             {
                 playerscore2 = playerscore2 - 100;
+                Console.WriteLine("-100");
             }
             if (button3.Text.Equals("(-£250)"))
             {
                 playerscore2 = playerscore2 - 250;
+                Console.WriteLine("-250");
             }
             if (button3.Text.Equals("(-£500)"))
             {
                 playerscore2 = playerscore2 - 500;
+                Console.WriteLine("-500");
             }
             if (button3.Text.Equals("(-£1000)"))
             {
                 playerscore2 = playerscore2 - 1000;
+                Console.WriteLine("-1000");
             }
             if (button3.Text.Equals("halve"))
             {
                 playerscore2 = playerscore2/2;
+                Console.WriteLine("/2");
             }
             if (button3.Text.Equals("give £1,000,000 to Amazon"))
             {
                 playerscore2 = playerscore2 - 1000000;
+                Console.WriteLine("amazon");
             }
 
             System.IO.File.WriteAllText(@"currentplayer.txt", playername+","+playerscore2);
