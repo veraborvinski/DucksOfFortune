@@ -68,7 +68,9 @@ namespace DuckOfFortune
                     var chosenbox = "letterBox" + (count2 + 1);
                     Console.WriteLine(chosenbox);
                     TextBox tbx = this.Controls.Find(chosenbox, true).FirstOrDefault() as TextBox;
+                    Console.WriteLine(tbx.Text);
                     tbx.ForeColor = Color.White;
+                    tbx.Refresh();
                     count2++;
                 }
                 Thread.Sleep(2000);
