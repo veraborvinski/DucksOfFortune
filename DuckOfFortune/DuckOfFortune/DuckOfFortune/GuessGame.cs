@@ -6,6 +6,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -25,24 +26,65 @@ namespace DuckOfFortune
         static class Global
         {
             private static string guessesleft;
+            
 
             public static string guesseslefty
             {
                 get { return guessesleft; }
                 set { guessesleft = value; }
             }
+
+           
+        }
+
+        static class Global2
+        {
+            private static string giveupcheck;
+
+            public static string giveupchecky
+            {
+                get { return giveupcheck; }
+                set { giveupcheck = value; }
+            }
         }
 
         private void GenerateBtn_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            string[] lines = File.ReadAllLines("misfortunes.txt");
-            Wheel misWheel = new Wheel(lines);
-            misWheel.Show();
+            var toconvert=Global2.giveupchecky;
+            int giveupcheck2 = Int32.Parse(toconvert);
+            Console.WriteLine(giveupcheck2);
+            giveupcheck2++;
+            if (giveupcheck2 == 1)
+            {
+                string message = "are you sure you want to spin the wheel of misfortune?";
+                MessageBox.Show(message);
+            }
+
+            if (giveupcheck2 == 2)
+            {
+                var count2 = 0;
+                while (count2 < 52)
+                {
+                    var chosenbox = "letterBox" + (count2 + 1);
+                    Console.WriteLine(chosenbox);
+                    TextBox tbx = this.Controls.Find(chosenbox, true).FirstOrDefault() as TextBox;
+                    tbx.ForeColor = Color.White;
+                    count2++;
+                }
+                Thread.Sleep(2000);
+                this.Hide();
+                string[] lines = File.ReadAllLines("misfortunes.txt");
+                Wheel misWheel = new Wheel(lines);
+                misWheel.Show();
+            }
+
+            
+            Global2.giveupchecky = giveupcheck2.ToString();
         }
 
         private void guessBtn_Click(object sender, EventArgs e)
         {
+            Global2.giveupchecky = "0";
             String guess = guessBox.Text;
             string guessupper = guess.ToUpper();
             string guesslower = guess.ToLower();
@@ -114,6 +156,7 @@ namespace DuckOfFortune
 
         private void GuessGame_Load(object sender, EventArgs e)
         {
+            Global2.giveupchecky = "0";
             Global.guesseslefty = "5";
             
             Random rand = new Random();
