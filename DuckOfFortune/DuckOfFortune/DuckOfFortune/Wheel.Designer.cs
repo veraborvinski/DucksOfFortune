@@ -53,6 +53,7 @@ namespace DuckOfFortune
             this.button2.Size = new System.Drawing.Size(209, 193);
             this.button2.TabIndex = 1;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -61,6 +62,10 @@ namespace DuckOfFortune
             this.button3.Size = new System.Drawing.Size(209, 193);
             this.button3.TabIndex = 2;
             this.button3.UseVisualStyleBackColor = true;
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
             // 
             // Wheel
             // 

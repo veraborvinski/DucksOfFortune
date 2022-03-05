@@ -21,3 +21,16 @@ C:\Users\camer\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFor
 C:\Users\camer\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.exe
 C:\Users\camer\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.pdb
 C:\Users\camer\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.GuessGame.resources
+C:\Users\veraborvinski\Source\Repos\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\bin\Debug\DuckOfFortune.exe.config
+C:\Users\veraborvinski\Source\Repos\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\bin\Debug\DuckOfFortune.exe
+C:\Users\veraborvinski\Source\Repos\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\bin\Debug\DuckOfFortune.pdb
+C:\Users\veraborvinski\Source\Repos\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.csproj.AssemblyReference.cache
+C:\Users\veraborvinski\Source\Repos\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.MainMenu.resources
+C:\Users\veraborvinski\Source\Repos\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.GuessGame.resources
+C:\Users\veraborvinski\Source\Repos\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.Properties.Resources.resources
+C:\Users\veraborvinski\Source\Repos\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.StartScreen.resources
+C:\Users\veraborvinski\Source\Repos\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.Wheel.resources
+C:\Users\veraborvinski\Source\Repos\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.csproj.GenerateResource.cache
+C:\Users\veraborvinski\Source\Repos\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.csproj.CoreCompileInputs.cache
+C:\Users\veraborvinski\Source\Repos\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.exe
+C:\Users\veraborvinski\Source\Repos\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.pdb

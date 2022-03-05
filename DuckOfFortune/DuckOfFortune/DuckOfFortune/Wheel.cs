@@ -29,18 +29,17 @@ namespace DuckOfFortune
         {
             timer1.Enabled = true;
             button2.Text = "stop";
-            button3.BackColor = Color.White;
             button1.Text = "";
         }
 
-        private void button2_Click_1(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             timer1.Enabled = false;
             button2.Text = "";
             button3.Text = Prizes[r.Next(Prizes.Length)];
         }
 
-        private void timer2_Tick(object sender, EventArgs e)
+        private void timer1_Tick_1(object sender, EventArgs e)
         {
             button3.Text = Prizes[r.Next(Prizes.Length)];
         }
