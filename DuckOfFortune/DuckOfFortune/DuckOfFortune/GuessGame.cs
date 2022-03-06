@@ -175,7 +175,7 @@ namespace DuckOfFortune
         {
             var lastLine = File.ReadLines("currentplayer.txt").Last();
             string[] getscore = lastLine.Split(',');
-            lblScore.Text = "You have: £" + getscore[1];
+            lblScore.Text = "£" + getscore[1];
             Global2.giveupchecky = "0";
             Global.guesseslefty = "5";
             

@@ -123,39 +123,9 @@ namespace DuckOfFortune.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fireexit {
-            get {
-                object obj = ResourceManager.GetObject("fireexit", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap istockphoto_652651670_612x612 {
-            get {
-                object obj = ResourceManager.GetObject("istockphoto-652651670-612x612", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap pngfind_com_curtains_png_943917 {
             get {
                 object obj = ResourceManager.GetObject("pngfind.com-curtains-png-943917", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap top_duck {
-            get {
-                object obj = ResourceManager.GetObject("top duck", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
