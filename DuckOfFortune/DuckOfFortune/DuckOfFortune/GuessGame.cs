@@ -265,9 +265,8 @@ namespace DuckOfFortune
 
             File.AppendAllText(@"Scores.txt", getscore[0]+","+getscore[1] + Environment.NewLine);
 
-            this.Hide();
-            MainMenu mainMenu = new MainMenu();
-            mainMenu.Show();
+            WinForm winform = new WinForm();
+            winform.Show();
             this.Hide();
         }
 

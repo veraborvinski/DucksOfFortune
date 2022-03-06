@@ -91,3 +91,5 @@ C:\Users\Rares\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFor
 C:\Users\Rares\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.csproj.GenerateResource.cache
 C:\Users\Rares\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.exe
 C:\Users\Rares\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.pdb
+C:\Users\veraborvinski\Source\Repos\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.LoseForm.resources
+C:\Users\veraborvinski\Source\Repos\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.WinForm.resources
