@@ -121,7 +121,7 @@ namespace DuckOfFortune
             System.IO.File.WriteAllText(@"currentplayer.txt", playername+","+playerscore2);
             var lastLine2 = File.ReadLines("currentplayer.txt").Last();
             string[] getscore2 = lastLine2.Split(',');
-            lblScore.Text = "You have: £" + getscore2[1];
+            lblScore.Text = "£" + getscore2[1];
             int checkscore = Int32.Parse(getscore2[1]);
             bool negative = checkscore < 0;
             if (negative == true)
@@ -174,7 +174,7 @@ namespace DuckOfFortune
             button1.Show();
             var lastLine = File.ReadLines("currentplayer.txt").Last();
             string[] getscore = lastLine.Split(',');
-            lblScore.Text = "You have: £" + getscore[1];
+            lblScore.Text = "£" + getscore[1];
         }
     }
 }
