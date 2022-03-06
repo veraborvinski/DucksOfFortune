@@ -129,7 +129,7 @@
             // guessBtn
             // 
             this.guessBtn.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guessBtn.Location = new System.Drawing.Point(256, 611);
+            this.guessBtn.Location = new System.Drawing.Point(256, 613);
             this.guessBtn.Name = "guessBtn";
             this.guessBtn.Size = new System.Drawing.Size(93, 48);
             this.guessBtn.TabIndex = 3;
@@ -979,7 +979,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(231, 495);
+            this.label1.Location = new System.Drawing.Point(231, 494);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(160, 24);
             this.label1.TabIndex = 19;

@@ -217,6 +217,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\cop_duck.png" />
+    <None Include="Resources\duck of fortunes.PNG" />
+    <None Include="Resources\de4wzfe-77d9456f-9a3c-4e88-944b-7df8b466d11b.png" />
+    <None Include="Resources\homeback.jpg" />
     <None Include="Resources\inmate_duck2.png" />
     <None Include="Resources\cop_duck2.png" />
   </ItemGroup>
