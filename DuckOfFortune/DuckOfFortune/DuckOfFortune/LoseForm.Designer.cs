@@ -38,15 +38,17 @@ namespace DuckOfFortune
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(367, 32);
+            this.label1.BackColor = System.Drawing.SystemColors.Control;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(353, 227);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(86, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "label1";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(181, 201);
+            this.button1.Location = new System.Drawing.Point(26, 380);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(114, 49);
             this.button1.TabIndex = 1;
@@ -56,7 +58,7 @@ namespace DuckOfFortune
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(343, 201);
+            this.button2.Location = new System.Drawing.Point(338, 380);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(114, 49);
             this.button2.TabIndex = 2;
@@ -66,7 +68,7 @@ namespace DuckOfFortune
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(503, 201);
+            this.button3.Location = new System.Drawing.Point(653, 380);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(114, 49);
             this.button3.TabIndex = 3;
@@ -78,6 +80,9 @@ namespace DuckOfFortune
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.BackgroundImage = global::DuckOfFortune.Properties.Resources.inmate_duck;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -85,6 +90,7 @@ namespace DuckOfFortune
             this.Controls.Add(this.label1);
             this.Name = "LoseForm";
             this.Text = "LoseForm";
+            this.Load += new System.EventHandler(this.LoseForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

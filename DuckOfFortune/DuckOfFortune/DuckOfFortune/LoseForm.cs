@@ -33,6 +33,12 @@ namespace DuckOfFortune
         {
             HighScore highscore = new HighScore();
             highscore.Show();
+            //highscore.ForeColor = Color.Aqua;
+        }
+
+        private void LoseForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
