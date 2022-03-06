@@ -39,5 +39,10 @@ namespace DuckOfFortune
         {
 
         }
+
+        private void WinForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -123,6 +123,16 @@ namespace DuckOfFortune.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cop_duck {
+            get {
+                object obj = ResourceManager.GetObject("cop_duck", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap deadduck {
             get {
                 object obj = ResourceManager.GetObject("deadduck", resourceCulture);
@@ -146,6 +156,16 @@ namespace DuckOfFortune.Properties {
         internal static System.Drawing.Bitmap download {
             get {
                 object obj = ResourceManager.GetObject("download", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap inmate_duck {
+            get {
+                object obj = ResourceManager.GetObject("inmate_duck", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

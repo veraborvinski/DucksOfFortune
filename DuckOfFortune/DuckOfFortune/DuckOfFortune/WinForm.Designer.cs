@@ -100,8 +100,11 @@ namespace DuckOfFortune
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "WinForm";
             this.Text = "WinForm";
+            this.Load += new System.EventHandler(this.WinForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
