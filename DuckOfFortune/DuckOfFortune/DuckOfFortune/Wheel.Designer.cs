@@ -53,10 +53,9 @@ namespace DuckOfFortune
             this.button1.BackColor = System.Drawing.Color.Red;
             this.button1.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(111, 241);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button1.Location = new System.Drawing.Point(74, 157);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(314, 297);
+            this.button1.Size = new System.Drawing.Size(209, 193);
             this.button1.TabIndex = 0;
             this.button1.Text = "START";
             this.button1.UseVisualStyleBackColor = false;
@@ -67,10 +66,9 @@ namespace DuckOfFortune
             this.button2.BackColor = System.Drawing.Color.Red;
             this.button2.Font = new System.Drawing.Font("Comic Sans MS", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(111, 242);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button2.Location = new System.Drawing.Point(74, 157);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(314, 297);
+            this.button2.Size = new System.Drawing.Size(209, 193);
             this.button2.TabIndex = 1;
             this.button2.Text = "STOP";
             this.button2.UseVisualStyleBackColor = false;
@@ -86,10 +84,10 @@ namespace DuckOfFortune
             this.button3.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button3.Image = global::DuckOfFortune.Properties.Resources._1;
-            this.button3.Location = new System.Drawing.Point(506, 115);
-            this.button3.Margin = new System.Windows.Forms.Padding(0, 0, 0, 0);
+            this.button3.Location = new System.Drawing.Point(337, 75);
+            this.button3.Margin = new System.Windows.Forms.Padding(0);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(630, 561);
+            this.button3.Size = new System.Drawing.Size(420, 365);
             this.button3.TabIndex = 2;
             this.button3.UseVisualStyleBackColor = false;
             // 
@@ -98,9 +96,10 @@ namespace DuckOfFortune
             this.panel2.BackgroundImage = global::DuckOfFortune.Properties.Resources.moneytotal;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.Controls.Add(this.lblScore);
-            this.panel2.Location = new System.Drawing.Point(50, 24);
+            this.panel2.Location = new System.Drawing.Point(33, 16);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(214, 84);
+            this.panel2.Size = new System.Drawing.Size(143, 55);
             this.panel2.TabIndex = 17;
             // 
             // lblScore
@@ -109,9 +108,10 @@ namespace DuckOfFortune
             this.lblScore.BackColor = System.Drawing.Color.Transparent;
             this.lblScore.Font = new System.Drawing.Font("Comic Sans MS", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScore.ForeColor = System.Drawing.Color.Transparent;
-            this.lblScore.Location = new System.Drawing.Point(26, 20);
+            this.lblScore.Location = new System.Drawing.Point(17, 13);
+            this.lblScore.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblScore.Name = "lblScore";
-            this.lblScore.Size = new System.Drawing.Size(165, 45);
+            this.lblScore.Size = new System.Drawing.Size(109, 31);
             this.lblScore.TabIndex = 6;
             this.lblScore.Text = "£123456";
             // 
@@ -120,44 +120,47 @@ namespace DuckOfFortune
             this.button4.BackgroundImage = global::DuckOfFortune.Properties.Resources.cashExit;
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(925, 24);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button4.Location = new System.Drawing.Point(617, 16);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(193, 84);
+            this.button4.Size = new System.Drawing.Size(129, 55);
             this.button4.TabIndex = 14;
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(948, -26);
+            this.button5.Location = new System.Drawing.Point(632, -17);
+            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(10, 54);
+            this.button5.Size = new System.Drawing.Size(7, 35);
             this.button5.TabIndex = 15;
             this.button5.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(1076, -26);
+            this.button6.Location = new System.Drawing.Point(717, -17);
+            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(10, 54);
+            this.button6.Size = new System.Drawing.Size(7, 35);
             this.button6.TabIndex = 16;
             this.button6.UseVisualStyleBackColor = true;
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(91, -16);
+            this.button7.Location = new System.Drawing.Point(61, -10);
+            this.button7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(10, 44);
+            this.button7.Size = new System.Drawing.Size(7, 29);
             this.button7.TabIndex = 18;
             this.button7.Text = "button4";
             this.button7.UseVisualStyleBackColor = true;
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(222, -16);
+            this.button8.Location = new System.Drawing.Point(148, -10);
+            this.button8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(10, 44);
+            this.button8.Size = new System.Drawing.Size(7, 29);
             this.button8.TabIndex = 19;
             this.button8.Text = "button5";
             this.button8.UseVisualStyleBackColor = true;
@@ -165,41 +168,45 @@ namespace DuckOfFortune
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.SaddleBrown;
-            this.panel1.Location = new System.Drawing.Point(0, -16);
+            this.panel1.Location = new System.Drawing.Point(0, -10);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(41, 868);
+            this.panel1.Size = new System.Drawing.Size(27, 564);
             this.panel1.TabIndex = 20;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.SaddleBrown;
-            this.panel3.Location = new System.Drawing.Point(1143, -4);
+            this.panel3.Location = new System.Drawing.Point(762, -3);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(41, 868);
+            this.panel3.Size = new System.Drawing.Size(27, 564);
             this.panel3.TabIndex = 21;
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.SaddleBrown;
-            this.panel4.Location = new System.Drawing.Point(0, 684);
+            this.panel4.Location = new System.Drawing.Point(2, 532);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1181, 51);
+            this.panel4.Size = new System.Drawing.Size(787, 33);
             this.panel4.TabIndex = 22;
             // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.SaddleBrown;
-            this.panel5.Location = new System.Drawing.Point(7, -2);
+            this.panel5.Location = new System.Drawing.Point(5, -1);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1181, 51);
+            this.panel5.Size = new System.Drawing.Size(787, 33);
             this.panel5.TabIndex = 23;
             // 
             // Wheel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.ClientSize = new System.Drawing.Size(1178, 844);
+            this.ClientSize = new System.Drawing.Size(789, 560);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
@@ -213,11 +220,10 @@ namespace DuckOfFortune
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.panel5);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(1200, 900);
+            this.MaximumSize = new System.Drawing.Size(805, 599);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(1200, 900);
+            this.MinimumSize = new System.Drawing.Size(805, 599);
             this.Name = "Wheel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Wheel";
