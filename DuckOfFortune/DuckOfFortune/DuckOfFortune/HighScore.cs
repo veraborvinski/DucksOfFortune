@@ -25,6 +25,7 @@ namespace DuckOfFortune
 
         private void HighScore_Load(object sender, EventArgs e)
         {
+            this.Refresh();
             string[] scores;
             // Read the file and add the scores to a dictionary  
             foreach (string line in File.ReadLines("Scores.txt"))
