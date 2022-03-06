@@ -43,10 +43,9 @@
             // 
             // btnConfirm
             // 
-            this.btnConfirm.Location = new System.Drawing.Point(337, 229);
-            this.btnConfirm.Margin = new System.Windows.Forms.Padding(2);
+            this.btnConfirm.Location = new System.Drawing.Point(506, 352);
             this.btnConfirm.Name = "btnConfirm";
-            this.btnConfirm.Size = new System.Drawing.Size(77, 41);
+            this.btnConfirm.Size = new System.Drawing.Size(116, 63);
             this.btnConfirm.TabIndex = 0;
             this.btnConfirm.Text = "Confirm";
             this.btnConfirm.UseVisualStyleBackColor = true;
@@ -56,18 +55,16 @@
             // 
             this.nameBox.BackColor = System.Drawing.Color.AntiqueWhite;
             this.nameBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nameBox.Location = new System.Drawing.Point(135, 498);
-            this.nameBox.Margin = new System.Windows.Forms.Padding(2);
+            this.nameBox.Location = new System.Drawing.Point(202, 766);
             this.nameBox.Name = "nameBox";
-            this.nameBox.Size = new System.Drawing.Size(131, 31);
+            this.nameBox.Size = new System.Drawing.Size(194, 43);
             this.nameBox.TabIndex = 1;
             // 
             // btnYes
             // 
-            this.btnYes.Location = new System.Drawing.Point(290, 498);
-            this.btnYes.Margin = new System.Windows.Forms.Padding(2);
+            this.btnYes.Location = new System.Drawing.Point(435, 766);
             this.btnYes.Name = "btnYes";
-            this.btnYes.Size = new System.Drawing.Size(67, 31);
+            this.btnYes.Size = new System.Drawing.Size(100, 48);
             this.btnYes.TabIndex = 2;
             this.btnYes.Text = "Sign";
             this.btnYes.UseVisualStyleBackColor = true;
@@ -75,10 +72,9 @@
             // 
             // btnNo
             // 
-            this.btnNo.Location = new System.Drawing.Point(412, 274);
-            this.btnNo.Margin = new System.Windows.Forms.Padding(2);
+            this.btnNo.Location = new System.Drawing.Point(618, 422);
             this.btnNo.Name = "btnNo";
-            this.btnNo.Size = new System.Drawing.Size(67, 36);
+            this.btnNo.Size = new System.Drawing.Size(100, 55);
             this.btnNo.TabIndex = 3;
             this.btnNo.Text = "Uh, no?";
             this.btnNo.UseVisualStyleBackColor = true;
@@ -87,10 +83,9 @@
             // nameLbl
             // 
             this.nameLbl.AutoSize = true;
-            this.nameLbl.Location = new System.Drawing.Point(376, 203);
-            this.nameLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.nameLbl.Location = new System.Drawing.Point(564, 312);
             this.nameLbl.Name = "nameLbl";
-            this.nameLbl.Size = new System.Drawing.Size(0, 13);
+            this.nameLbl.Size = new System.Drawing.Size(0, 20);
             this.nameLbl.TabIndex = 4;
             this.nameLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -99,9 +94,10 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Kunstler Script", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(27, 9);
+            this.label1.Location = new System.Drawing.Point(40, 14);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(199, 69);
+            this.label1.Size = new System.Drawing.Size(292, 104);
             this.label1.TabIndex = 5;
             this.label1.Text = "Contract";
             // 
@@ -110,9 +106,10 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Himalaya", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(28, 78);
+            this.label2.Location = new System.Drawing.Point(42, 120);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(535, 357);
+            this.label2.Size = new System.Drawing.Size(820, 544);
             this.label2.TabIndex = 6;
             this.label2.Text = resources.GetString("label2.Text");
             // 
@@ -121,9 +118,10 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Himalaya", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(27, 507);
+            this.label3.Location = new System.Drawing.Point(40, 780);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(103, 29);
+            this.label3.Size = new System.Drawing.Size(150, 44);
             this.label3.TabIndex = 7;
             this.label3.Text = "Sign here:";
             // 
@@ -132,18 +130,19 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImage = global::DuckOfFortune.Properties.Resources.DoF_Icon;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(497, 229);
+            this.pictureBox2.Location = new System.Drawing.Point(682, 352);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(397, 306);
+            this.pictureBox2.Size = new System.Drawing.Size(483, 408);
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
             // 
             // StartScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::DuckOfFortune.Properties.Resources.wrinkled_paper_3;
-            this.ClientSize = new System.Drawing.Size(907, 550);
+            this.ClientSize = new System.Drawing.Size(1178, 844);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -153,7 +152,6 @@
             this.Controls.Add(this.btnYes);
             this.Controls.Add(this.nameBox);
             this.Controls.Add(this.btnConfirm);
-            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "StartScreen";
