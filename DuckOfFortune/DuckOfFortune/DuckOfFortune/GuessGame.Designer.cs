@@ -123,6 +123,7 @@
             this.guessBox.Name = "guessBox";
             this.guessBox.Size = new System.Drawing.Size(93, 86);
             this.guessBox.TabIndex = 2;
+            this.guessBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.guessBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.guessBox_KeyDown);
             // 
             // guessBtn
