@@ -37,9 +37,10 @@
             // 
             // btnConfirm
             // 
-            this.btnConfirm.Location = new System.Drawing.Point(506, 352);
+            this.btnConfirm.Location = new System.Drawing.Point(337, 229);
+            this.btnConfirm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnConfirm.Name = "btnConfirm";
-            this.btnConfirm.Size = new System.Drawing.Size(115, 63);
+            this.btnConfirm.Size = new System.Drawing.Size(77, 41);
             this.btnConfirm.TabIndex = 0;
             this.btnConfirm.Text = "Confirm";
             this.btnConfirm.UseVisualStyleBackColor = true;
@@ -47,16 +48,18 @@
             // 
             // nameBox
             // 
-            this.nameBox.Location = new System.Drawing.Point(506, 264);
+            this.nameBox.Location = new System.Drawing.Point(337, 172);
+            this.nameBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.nameBox.Name = "nameBox";
-            this.nameBox.Size = new System.Drawing.Size(115, 26);
+            this.nameBox.Size = new System.Drawing.Size(78, 20);
             this.nameBox.TabIndex = 1;
             // 
             // btnYes
             // 
-            this.btnYes.Location = new System.Drawing.Point(409, 421);
+            this.btnYes.Location = new System.Drawing.Point(273, 274);
+            this.btnYes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnYes.Name = "btnYes";
-            this.btnYes.Size = new System.Drawing.Size(100, 56);
+            this.btnYes.Size = new System.Drawing.Size(67, 36);
             this.btnYes.TabIndex = 2;
             this.btnYes.Text = "Yes";
             this.btnYes.UseVisualStyleBackColor = true;
@@ -64,9 +67,10 @@
             // 
             // btnNo
             // 
-            this.btnNo.Location = new System.Drawing.Point(618, 421);
+            this.btnNo.Location = new System.Drawing.Point(412, 274);
+            this.btnNo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnNo.Name = "btnNo";
-            this.btnNo.Size = new System.Drawing.Size(100, 56);
+            this.btnNo.Size = new System.Drawing.Size(67, 36);
             this.btnNo.TabIndex = 3;
             this.btnNo.Text = "Uh, no?";
             this.btnNo.UseVisualStyleBackColor = true;
@@ -75,22 +79,26 @@
             // nameLbl
             // 
             this.nameLbl.AutoSize = true;
-            this.nameLbl.Location = new System.Drawing.Point(564, 312);
+            this.nameLbl.Location = new System.Drawing.Point(376, 203);
+            this.nameLbl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.nameLbl.Name = "nameLbl";
-            this.nameLbl.Size = new System.Drawing.Size(0, 20);
+            this.nameLbl.Size = new System.Drawing.Size(0, 13);
             this.nameLbl.TabIndex = 4;
             this.nameLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // StartScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1178, 844);
+            this.ClientSize = new System.Drawing.Size(785, 549);
             this.Controls.Add(this.nameLbl);
             this.Controls.Add(this.btnNo);
             this.Controls.Add(this.btnYes);
             this.Controls.Add(this.nameBox);
             this.Controls.Add(this.btnConfirm);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "StartScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StartScreen";

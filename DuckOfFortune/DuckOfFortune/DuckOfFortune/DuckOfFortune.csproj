@@ -143,5 +143,11 @@
   <ItemGroup>
     <None Include="Resources\4.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngfind.com-curtains-png-943917.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

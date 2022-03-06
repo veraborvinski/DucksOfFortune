@@ -165,7 +165,7 @@ namespace DuckOfFortune
                     
             }
 
-
+            guessBox.Text = "";
         }
 
         static string[] lines = File.ReadAllLines("Phrases.txt");
@@ -291,5 +291,18 @@ namespace DuckOfFortune
 
         }
 
+        private void guessBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) {
+                guessBtn_Click(this, new EventArgs());
+            }
+        }
+
+        private void guessBox_TextChanged(object sender, KeyEventArgs e) { }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
