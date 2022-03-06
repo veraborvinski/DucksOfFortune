@@ -98,10 +98,6 @@ namespace DuckOfFortune
                 playerscore2 = playerscore2*2;
                 Console.WriteLine("x2");
             }
-            if (button3.Text.Equals("minigame"))
-            {
-                Console.WriteLine("mini");
-            }
             if (button3.Text.Equals("(-£100)"))
             {
                 playerscore2 = playerscore2 - 100;

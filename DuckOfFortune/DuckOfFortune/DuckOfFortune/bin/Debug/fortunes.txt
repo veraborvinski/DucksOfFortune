@@ -3,4 +3,3 @@
 £500
 £1000
 double
-minigame
