@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -15,7 +17,9 @@ namespace DuckOfFortune
         public WinForm()
         {
             InitializeComponent();
-            label1.Text = "You have won";
+            var lastLine2 = File.ReadLines("currentplayer.txt").Last();
+            string[] getscore2 = lastLine2.Split(',');
+            label1.Text = "You have won £" + getscore2[1];
         }
 
         private void button1_Click(object sender, EventArgs e)
