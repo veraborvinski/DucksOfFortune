@@ -110,3 +110,4 @@ C:\Users\camer\source\repos\LatestDOF\DuckOfFortune\DuckOfFortune\DuckOfFortune\
 C:\Users\camer\source\repos\LatestDOF\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.csproj.CoreCompileInputs.cache
 C:\Users\camer\source\repos\LatestDOF\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.exe
 C:\Users\camer\source\repos\LatestDOF\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.pdb
+C:\Users\camer\source\repos\LatestDOF\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.WhatForm.resources
