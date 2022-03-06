@@ -1090,7 +1090,9 @@
             this.Controls.Add(this.button5);
             this.DoubleBuffered = true;
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(1200, 900);
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(1200, 900);
             this.Name = "GuessGame";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GuessGame";

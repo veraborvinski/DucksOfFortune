@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -17,6 +18,17 @@ namespace DuckOfFortune
         string[] Prizes;
         Random r = new Random();
         int curr;
+
+        private void playSimpleSound()
+        {
+            SoundPlayer wheelnoise = new SoundPlayer("wheelnoise2.wav");
+            wheelnoise.Play();
+        }
+        private void stopSimpleSound()
+        {
+            SoundPlayer wheelnoise = new SoundPlayer("wheelnoise2.wav");
+            wheelnoise.Stop();
+        }
         public Wheel(string[] prizes)
         {
             Prizes = prizes;
@@ -31,11 +43,14 @@ namespace DuckOfFortune
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             button1.Hide();
             button2.Show();
             timer1.Enabled = true;
             button2.Text = "stop";
             button1.Text = "";
+            playSimpleSound();
+            Thread.Sleep(1500);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -48,7 +63,7 @@ namespace DuckOfFortune
             var playername = getscore[0];
 
             int playerscore2 = Int32.Parse(playerscore);
-
+            stopSimpleSound();
             timer1.Enabled = false;
             button2.Text = "";
             button3.Text = Prizes[r.Next(Prizes.Length)];
@@ -126,6 +141,7 @@ namespace DuckOfFortune
             bool negative = checkscore < 0;
             if (negative == true)
             {
+                Thread.Sleep(2000);
                 LoseForm loseform = new LoseForm();
                 loseform.Show();
                 this.Hide();

@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -24,6 +25,7 @@ namespace DuckOfFortune
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Hide();
             MainMenu mainMenu = new MainMenu();
             mainMenu.Show();
         }
@@ -35,6 +37,7 @@ namespace DuckOfFortune
 
         private void button3_Click(object sender, EventArgs e)
         {
+            this.Hide();
             HighScore highscore = new HighScore();
             highscore.Show();
         }
@@ -46,7 +49,8 @@ namespace DuckOfFortune
 
         private void WinForm_Load(object sender, EventArgs e)
         {
-
+            SoundPlayer endmusic = new SoundPlayer("endmusic.wav");
+            endmusic.Play();
         }
     }
 }

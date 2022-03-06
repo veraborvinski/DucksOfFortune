@@ -23,6 +23,7 @@ namespace DuckOfFortune
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Hide();
             MainMenu mainMenu = new MainMenu();
             mainMenu.Show();
         }
@@ -34,6 +35,7 @@ namespace DuckOfFortune
 
         private void button3_Click(object sender, EventArgs e)
         {
+            this.Hide();
             HighScore highscore = new HighScore();
             highscore.Show();
             //highscore.ForeColor = Color.Aqua;

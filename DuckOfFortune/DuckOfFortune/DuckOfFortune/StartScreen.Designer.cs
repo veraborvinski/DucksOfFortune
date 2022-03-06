@@ -153,7 +153,9 @@
             this.Controls.Add(this.nameBox);
             this.Controls.Add(this.btnConfirm);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(1200, 900);
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(1200, 900);
             this.Name = "StartScreen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StartScreen";

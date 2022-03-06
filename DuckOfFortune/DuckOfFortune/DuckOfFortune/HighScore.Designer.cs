@@ -48,6 +48,8 @@ namespace DuckOfFortune
             this.ClientSize = new System.Drawing.Size(1178, 844);
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximumSize = new System.Drawing.Size(1200, 900);
+            this.MinimumSize = new System.Drawing.Size(1200, 900);
             this.Name = "HighScore";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HighScore";

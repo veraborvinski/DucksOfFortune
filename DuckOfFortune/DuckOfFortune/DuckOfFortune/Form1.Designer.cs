@@ -92,7 +92,9 @@
             this.Controls.Add(this.btnScores);
             this.Controls.Add(this.btnStart);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(1200, 900);
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(1200, 900);
             this.Name = "MainMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainMenu";

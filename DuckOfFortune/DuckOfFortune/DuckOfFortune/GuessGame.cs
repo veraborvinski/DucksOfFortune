@@ -141,7 +141,7 @@ namespace DuckOfFortune
 
             if (thechecker == 0)
             {
-                string message = "You Win";
+                string message = "Good Job, Enjoy the spin.";
                 MessageBox.Show(message);
                 this.Hide();
                 string[] lines = File.ReadAllLines("fortunes.txt");
@@ -190,7 +190,7 @@ namespace DuckOfFortune
                 GuessLbl.Text = "Guesses Left: ";
                 if (numbguessesleft == 0)
                 {
-                    string message = "You Lose";
+                    string message = "Hold this L. Off to the wheel of misfortune";
                     MessageBox.Show(message);
                     this.Hide();
                     string[] lines = File.ReadAllLines("misfortunes.txt");
