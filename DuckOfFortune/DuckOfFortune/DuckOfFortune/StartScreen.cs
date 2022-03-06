@@ -25,7 +25,7 @@ namespace DuckOfFortune
         private void btnConfirm_Click(object sender, EventArgs e)
         {
             
-            name = nameBox.Text;
+            
             if (String.IsNullOrEmpty(name))
             {
                 string message = "Name is blank";
@@ -66,13 +66,30 @@ namespace DuckOfFortune
 
         private void btnYes_Click(object sender, EventArgs e)
         {
-            string startupPath = System.IO.Directory.GetCurrentDirectory();
-            System.IO.File.WriteAllText(@"currentplayer.txt", name+",0");
+            var check = 0;
+            name = nameBox.Text;
+            if (String.IsNullOrEmpty(name))
+            {
+                string message = "Name is blank";
+                MessageBox.Show(message);
+                check = 1;
+            }
 
-            this.Hide();
-            var guessgame = new GuessGame();
-            guessgame.Closed += (s, args) => this.Close();
-            guessgame.Show();
+            if (check == 0)
+            {
+                string startupPath = System.IO.Directory.GetCurrentDirectory();
+                System.IO.File.WriteAllText(@"currentplayer.txt", name + ",0");
+
+                this.Hide();
+                var guessgame = new GuessGame();
+                guessgame.Closed += (s, args) => this.Close();
+                guessgame.Show();
+            }
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
 
         }
     }
