@@ -99,13 +99,15 @@
             this.duck4 = new System.Windows.Forms.Panel();
             this.duck3 = new System.Windows.Forms.Panel();
             this.duck5 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // GenerateBtn
             // 
-            this.GenerateBtn.Location = new System.Drawing.Point(28, 335);
+            this.GenerateBtn.Location = new System.Drawing.Point(12, 754);
             this.GenerateBtn.Name = "GenerateBtn";
             this.GenerateBtn.Size = new System.Drawing.Size(105, 57);
             this.GenerateBtn.TabIndex = 1;
@@ -115,19 +117,20 @@
             // 
             // guessBox
             // 
-            this.guessBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guessBox.Location = new System.Drawing.Point(207, 556);
+            this.guessBox.Font = new System.Drawing.Font("Comic Sans MS", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guessBox.Location = new System.Drawing.Point(256, 519);
             this.guessBox.MaxLength = 1;
             this.guessBox.Name = "guessBox";
-            this.guessBox.Size = new System.Drawing.Size(52, 44);
+            this.guessBox.Size = new System.Drawing.Size(93, 86);
             this.guessBox.TabIndex = 2;
             this.guessBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.guessBox_KeyDown);
             // 
             // guessBtn
             // 
-            this.guessBtn.Location = new System.Drawing.Point(287, 558);
+            this.guessBtn.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guessBtn.Location = new System.Drawing.Point(256, 611);
             this.guessBtn.Name = "guessBtn";
-            this.guessBtn.Size = new System.Drawing.Size(75, 48);
+            this.guessBtn.Size = new System.Drawing.Size(93, 48);
             this.guessBtn.TabIndex = 3;
             this.guessBtn.Text = "Guess";
             this.guessBtn.UseVisualStyleBackColor = true;
@@ -161,12 +164,12 @@
             // HintLbl
             // 
             this.HintLbl.BackColor = System.Drawing.Color.Transparent;
-            this.HintLbl.Font = new System.Drawing.Font("Comic Sans MS", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HintLbl.Location = new System.Drawing.Point(566, 638);
+            this.HintLbl.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HintLbl.Location = new System.Drawing.Point(562, 598);
             this.HintLbl.Name = "HintLbl";
-            this.HintLbl.Size = new System.Drawing.Size(448, 98);
+            this.HintLbl.Size = new System.Drawing.Size(354, 98);
             this.HintLbl.TabIndex = 0;
-            this.HintLbl.Text = "Hint: ";
+            this.HintLbl.Text = "Hint:";
             this.HintLbl.Click += new System.EventHandler(this.HintLbl_Click);
             // 
             // lblScore
@@ -184,10 +187,10 @@
             // QuestLbl
             // 
             this.QuestLbl.BackColor = System.Drawing.Color.Transparent;
-            this.QuestLbl.Font = new System.Drawing.Font("Comic Sans MS", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QuestLbl.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.QuestLbl.Location = new System.Drawing.Point(566, 480);
             this.QuestLbl.Name = "QuestLbl";
-            this.QuestLbl.Size = new System.Drawing.Size(448, 158);
+            this.QuestLbl.Size = new System.Drawing.Size(363, 118);
             this.QuestLbl.TabIndex = 7;
             this.QuestLbl.Text = "Question:";
             this.QuestLbl.Click += new System.EventHandler(this.QuestLbl_Click);
@@ -971,6 +974,26 @@
             this.duck5.Size = new System.Drawing.Size(63, 54);
             this.duck5.TabIndex = 18;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(231, 495);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(160, 24);
+            this.label1.TabIndex = 19;
+            this.label1.Text = "Enter letter here:";
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.BackgroundImage = global::DuckOfFortune.Properties.Resources.top_duck;
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel3.Location = new System.Drawing.Point(922, 498);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(234, 218);
+            this.panel3.TabIndex = 20;
+            // 
             // GuessGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -979,6 +1002,8 @@
             this.BackgroundImage = global::DuckOfFortune.Properties.Resources.pngfind_com_curtains_png_943917;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1178, 845);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.duck5);
             this.Controls.Add(this.duck4);
             this.Controls.Add(this.duck3);
@@ -1085,5 +1110,7 @@
         private System.Windows.Forms.Panel duck4;
         private System.Windows.Forms.Panel duck3;
         private System.Windows.Forms.Panel duck5;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel3;
     }
 }
