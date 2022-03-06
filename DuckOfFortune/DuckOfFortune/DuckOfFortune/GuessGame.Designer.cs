@@ -746,6 +746,7 @@
             this.guessBox.Name = "guessBox";
             this.guessBox.Size = new System.Drawing.Size(79, 20);
             this.guessBox.TabIndex = 2;
+            this.guessBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.guessBox_KeyDown);
             // 
             // guessBtn
             // 

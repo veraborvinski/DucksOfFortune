@@ -291,5 +291,13 @@ namespace DuckOfFortune
 
         }
 
+        private void guessBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) {
+                guessBtn_Click(this, new EventArgs());
+            }
+        }
+
+        private void guessBox_TextChanged(object sender, KeyEventArgs e) { }
     }
 }
