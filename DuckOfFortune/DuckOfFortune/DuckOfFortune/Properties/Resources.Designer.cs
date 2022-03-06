@@ -103,9 +103,39 @@ namespace DuckOfFortune.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bezos_duck {
+            get {
+                object obj = ResourceManager.GetObject("bezos_duck", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cashExit {
             get {
                 object obj = ResourceManager.GetObject("cashExit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cop_duck {
+            get {
+                object obj = ResourceManager.GetObject("cop_duck", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap de4wzfe_77d9456f_9a3c_4e88_944b_7df8b466d11b {
+            get {
+                object obj = ResourceManager.GetObject("de4wzfe-77d9456f-9a3c-4e88-944b-7df8b466d11b", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,6 +173,36 @@ namespace DuckOfFortune.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap duck_of_fortunes {
+            get {
+                object obj = ResourceManager.GetObject("duck of fortunes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap homeback {
+            get {
+                object obj = ResourceManager.GetObject("homeback", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap inmate_duck {
+            get {
+                object obj = ResourceManager.GetObject("inmate_duck", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap moneytotal {
             get {
                 object obj = ResourceManager.GetObject("moneytotal", resourceCulture);
@@ -166,6 +226,46 @@ namespace DuckOfFortune.Properties {
         internal static System.Drawing.Bitmap rubberduck {
             get {
                 object obj = ResourceManager.GetObject("rubberduck", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Speech {
+            get {
+                object obj = ResourceManager.GetObject("Speech", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Speech1 {
+            get {
+                object obj = ResourceManager.GetObject("Speech1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Speech2 {
+            get {
+                object obj = ResourceManager.GetObject("Speech2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap top_duck {
+            get {
+                object obj = ResourceManager.GetObject("top duck", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

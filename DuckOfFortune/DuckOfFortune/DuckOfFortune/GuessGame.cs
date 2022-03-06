@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -150,26 +151,37 @@ namespace DuckOfFortune
 
             if(guessCorrect == false)
             {
+                SoundPlayer goodbyeDuck = new SoundPlayer("gunshot.wav");
                 int numbguessesleft = Int32.Parse(Global.guesseslefty);
                 var ducktoremove = numbguessesleft;
                 if (ducktoremove == 5)
                 {
+                    goodbyeDuck.Play();
+                    Thread.Sleep(250);
                     duck5.BackgroundImage = Properties.Resources.deadduck;
                 }
                 if (ducktoremove == 4)
                 {
+                    goodbyeDuck.Play();
+                    Thread.Sleep(250);
                     duck4.BackgroundImage = Properties.Resources.deadduck;
                 }
                 if (ducktoremove == 3)
                 {
+                    goodbyeDuck.Play();
+                    Thread.Sleep(250);
                     duck3.BackgroundImage = Properties.Resources.deadduck;
                 }
                 if (ducktoremove == 2)
                 {
+                    goodbyeDuck.Play();
+                    Thread.Sleep(250);
                     duck2.BackgroundImage = Properties.Resources.deadduck;
                 }
                 if (ducktoremove == 1)
                 {
+                    goodbyeDuck.Play();
+                    Thread.Sleep(250);
                     duck1.BackgroundImage = Properties.Resources.deadduck;
                 }
 
@@ -180,6 +192,7 @@ namespace DuckOfFortune
                 {
                     string message = "You Lose";
                     MessageBox.Show(message);
+                    this.Hide();
                     string[] lines = File.ReadAllLines("misfortunes.txt");
                     Wheel misWheel = new Wheel(lines);
                     misWheel.Show();
@@ -219,6 +232,7 @@ namespace DuckOfFortune
                     var chosenbox = "letterBox" + (count + 1);
                     Console.WriteLine(chosenbox);
                     TextBox tbx = this.Controls.Find(chosenbox, true).FirstOrDefault() as TextBox;
+                    tbx.HideSelection = true;
                     var letterToWrite = characters[count];
                     var converted = letterToWrite.ToString();
                     tbx.Text = converted;
@@ -253,9 +267,8 @@ namespace DuckOfFortune
 
             File.AppendAllText(@"Scores.txt", getscore[0]+","+getscore[1] + Environment.NewLine);
 
-            this.Hide();
-            MainMenu mainMenu = new MainMenu();
-            mainMenu.Show();
+            WinForm winform = new WinForm();
+            winform.Show();
             this.Hide();
         }
 

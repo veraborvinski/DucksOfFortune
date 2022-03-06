@@ -31,25 +31,28 @@
             this.btnStart = new System.Windows.Forms.Button();
             this.btnScores = new System.Windows.Forms.Button();
             this.btnQuit = new System.Windows.Forms.Button();
-            this.TitleLbl = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(551, 356);
+            this.btnStart.BackColor = System.Drawing.Color.Gold;
+            this.btnStart.Font = new System.Drawing.Font("Comic Sans MS", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStart.Location = new System.Drawing.Point(477, 356);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(111, 68);
+            this.btnStart.Size = new System.Drawing.Size(254, 68);
             this.btnStart.TabIndex = 0;
             this.btnStart.Text = "Start";
-            this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.UseVisualStyleBackColor = false;
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // btnScores
             // 
-            this.btnScores.BackColor = System.Drawing.Color.Transparent;
-            this.btnScores.Location = new System.Drawing.Point(551, 450);
+            this.btnScores.BackColor = System.Drawing.Color.Gold;
+            this.btnScores.Font = new System.Drawing.Font("Comic Sans MS", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnScores.Location = new System.Drawing.Point(510, 450);
             this.btnScores.Name = "btnScores";
-            this.btnScores.Size = new System.Drawing.Size(111, 70);
+            this.btnScores.Size = new System.Drawing.Size(193, 70);
             this.btnScores.TabIndex = 1;
             this.btnScores.Text = "High Scores";
             this.btnScores.UseVisualStyleBackColor = false;
@@ -57,31 +60,34 @@
             // 
             // btnQuit
             // 
-            this.btnQuit.Location = new System.Drawing.Point(551, 544);
+            this.btnQuit.BackColor = System.Drawing.Color.Gold;
+            this.btnQuit.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuit.Location = new System.Drawing.Point(534, 544);
             this.btnQuit.Name = "btnQuit";
-            this.btnQuit.Size = new System.Drawing.Size(111, 69);
+            this.btnQuit.Size = new System.Drawing.Size(141, 69);
             this.btnQuit.TabIndex = 2;
             this.btnQuit.Text = "Quit";
-            this.btnQuit.UseVisualStyleBackColor = true;
+            this.btnQuit.UseVisualStyleBackColor = false;
             this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
             // 
-            // TitleLbl
+            // panel1
             // 
-            this.TitleLbl.AutoSize = true;
-            this.TitleLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TitleLbl.Location = new System.Drawing.Point(410, 172);
-            this.TitleLbl.Name = "TitleLbl";
-            this.TitleLbl.Size = new System.Drawing.Size(405, 59);
-            this.TitleLbl.TabIndex = 3;
-            this.TitleLbl.Text = "Duck Of Fortune";
+            this.panel1.BackgroundImage = global::DuckOfFortune.Properties.Resources.duck_of_fortunes;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Location = new System.Drawing.Point(295, 50);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(589, 256);
+            this.panel1.TabIndex = 3;
             // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
+            this.BackgroundImage = global::DuckOfFortune.Properties.Resources.homeback;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1178, 844);
-            this.Controls.Add(this.TitleLbl);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnQuit);
             this.Controls.Add(this.btnScores);
             this.Controls.Add(this.btnStart);
@@ -92,7 +98,6 @@
             this.Text = "MainMenu";
             this.Load += new System.EventHandler(this.MainMenu_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -101,7 +106,7 @@
         private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.Button btnScores;
         private System.Windows.Forms.Button btnQuit;
-        private System.Windows.Forms.Label TitleLbl;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
