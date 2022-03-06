@@ -299,5 +299,10 @@ namespace DuckOfFortune
         }
 
         private void guessBox_TextChanged(object sender, KeyEventArgs e) { }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
