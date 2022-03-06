@@ -101,8 +101,10 @@
             this.duck5 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // GenerateBtn
@@ -251,7 +253,7 @@
             this.panel1.Controls.Add(this.letterBox3);
             this.panel1.Controls.Add(this.letterBox2);
             this.panel1.Controls.Add(this.letterBox1);
-            this.panel1.Location = new System.Drawing.Point(296, 114);
+            this.panel1.Location = new System.Drawing.Point(18, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(593, 290);
             this.panel1.TabIndex = 8;
@@ -995,6 +997,16 @@
             this.panel3.Size = new System.Drawing.Size(234, 218);
             this.panel3.TabIndex = 20;
             // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.Transparent;
+            this.panel4.Controls.Add(this.panel1);
+            this.panel4.Location = new System.Drawing.Point(278, 102);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(625, 302);
+            this.panel4.TabIndex = 21;
+            this.panel4.UseWaitCursor = true;
+            // 
             // GuessGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -1003,6 +1015,7 @@
             this.BackgroundImage = global::DuckOfFortune.Properties.Resources.pngfind_com_curtains_png_943917;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1178, 845);
+            this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.duck5);
@@ -1012,7 +1025,6 @@
             this.Controls.Add(this.duck1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.QuestLbl);
             this.Controls.Add(this.HintLbl);
             this.Controls.Add(this.GuessLbl);
@@ -1034,6 +1046,7 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel4.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1113,5 +1126,6 @@
         private System.Windows.Forms.Panel duck5;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel4;
     }
 }

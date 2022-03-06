@@ -192,6 +192,7 @@ namespace DuckOfFortune
                 {
                     string message = "You Lose";
                     MessageBox.Show(message);
+                    this.Hide();
                     string[] lines = File.ReadAllLines("misfortunes.txt");
                     Wheel misWheel = new Wheel(lines);
                     misWheel.Show();
@@ -231,6 +232,7 @@ namespace DuckOfFortune
                     var chosenbox = "letterBox" + (count + 1);
                     Console.WriteLine(chosenbox);
                     TextBox tbx = this.Controls.Find(chosenbox, true).FirstOrDefault() as TextBox;
+                    tbx.HideSelection = true;
                     var letterToWrite = characters[count];
                     var converted = letterToWrite.ToString();
                     tbx.Text = converted;
