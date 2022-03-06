@@ -131,7 +131,7 @@
             // guessBtn
             // 
             this.guessBtn.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guessBtn.Location = new System.Drawing.Point(256, 613);
+            this.guessBtn.Location = new System.Drawing.Point(256, 614);
             this.guessBtn.Name = "guessBtn";
             this.guessBtn.Size = new System.Drawing.Size(93, 48);
             this.guessBtn.TabIndex = 3;
@@ -257,10 +257,11 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(593, 290);
             this.panel1.TabIndex = 8;
+            this.panel1.UseWaitCursor = true;
             // 
             // letterBox26
             // 
-            this.letterBox26.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox26.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox26.Location = new System.Drawing.Point(543, 81);
             this.letterBox26.MaxLength = 1;
@@ -269,10 +270,11 @@
             this.letterBox26.Size = new System.Drawing.Size(43, 53);
             this.letterBox26.TabIndex = 112;
             this.letterBox26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox26.UseWaitCursor = true;
             // 
             // letterBox40
             // 
-            this.letterBox40.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox40.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox40.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox40.Location = new System.Drawing.Point(543, 155);
             this.letterBox40.MaxLength = 1;
@@ -281,10 +283,11 @@
             this.letterBox40.Size = new System.Drawing.Size(43, 53);
             this.letterBox40.TabIndex = 111;
             this.letterBox40.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox40.UseWaitCursor = true;
             // 
             // letterBox27
             // 
-            this.letterBox27.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox27.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox27.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox27.Location = new System.Drawing.Point(10, 155);
             this.letterBox27.MaxLength = 1;
@@ -293,10 +296,11 @@
             this.letterBox27.Size = new System.Drawing.Size(43, 53);
             this.letterBox27.TabIndex = 110;
             this.letterBox27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox27.UseWaitCursor = true;
             // 
             // letterBox13
             // 
-            this.letterBox13.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox13.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox13.Location = new System.Drawing.Point(10, 81);
             this.letterBox13.MaxLength = 1;
@@ -305,10 +309,11 @@
             this.letterBox13.Size = new System.Drawing.Size(43, 53);
             this.letterBox13.TabIndex = 109;
             this.letterBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox13.UseWaitCursor = true;
             // 
             // letterBox52
             // 
-            this.letterBox52.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox52.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox52.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox52.Location = new System.Drawing.Point(502, 229);
             this.letterBox52.MaxLength = 1;
@@ -317,10 +322,11 @@
             this.letterBox52.Size = new System.Drawing.Size(43, 53);
             this.letterBox52.TabIndex = 108;
             this.letterBox52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox52.UseWaitCursor = true;
             // 
             // letterBox51
             // 
-            this.letterBox51.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox51.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox51.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox51.Location = new System.Drawing.Point(460, 229);
             this.letterBox51.MaxLength = 1;
@@ -329,10 +335,11 @@
             this.letterBox51.Size = new System.Drawing.Size(43, 53);
             this.letterBox51.TabIndex = 107;
             this.letterBox51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox51.UseWaitCursor = true;
             // 
             // letterBox50
             // 
-            this.letterBox50.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox50.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox50.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox50.Location = new System.Drawing.Point(419, 229);
             this.letterBox50.MaxLength = 1;
@@ -341,10 +348,11 @@
             this.letterBox50.Size = new System.Drawing.Size(43, 53);
             this.letterBox50.TabIndex = 106;
             this.letterBox50.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox50.UseWaitCursor = true;
             // 
             // letterBox49
             // 
-            this.letterBox49.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox49.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox49.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox49.Location = new System.Drawing.Point(379, 229);
             this.letterBox49.MaxLength = 1;
@@ -353,10 +361,11 @@
             this.letterBox49.Size = new System.Drawing.Size(43, 53);
             this.letterBox49.TabIndex = 105;
             this.letterBox49.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox49.UseWaitCursor = true;
             // 
             // letterBox48
             // 
-            this.letterBox48.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox48.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox48.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox48.Location = new System.Drawing.Point(337, 229);
             this.letterBox48.MaxLength = 1;
@@ -365,10 +374,11 @@
             this.letterBox48.Size = new System.Drawing.Size(43, 53);
             this.letterBox48.TabIndex = 104;
             this.letterBox48.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox48.UseWaitCursor = true;
             // 
             // letterBox47
             // 
-            this.letterBox47.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox47.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox47.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox47.Location = new System.Drawing.Point(297, 229);
             this.letterBox47.MaxLength = 1;
@@ -377,10 +387,11 @@
             this.letterBox47.Size = new System.Drawing.Size(43, 53);
             this.letterBox47.TabIndex = 103;
             this.letterBox47.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox47.UseWaitCursor = true;
             // 
             // letterBox46
             // 
-            this.letterBox46.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox46.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox46.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox46.Location = new System.Drawing.Point(256, 229);
             this.letterBox46.MaxLength = 1;
@@ -389,10 +400,11 @@
             this.letterBox46.Size = new System.Drawing.Size(43, 53);
             this.letterBox46.TabIndex = 102;
             this.letterBox46.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox46.UseWaitCursor = true;
             // 
             // letterBox45
             // 
-            this.letterBox45.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox45.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox45.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox45.Location = new System.Drawing.Point(214, 229);
             this.letterBox45.MaxLength = 1;
@@ -401,10 +413,11 @@
             this.letterBox45.Size = new System.Drawing.Size(43, 53);
             this.letterBox45.TabIndex = 101;
             this.letterBox45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox45.UseWaitCursor = true;
             // 
             // letterBox44
             // 
-            this.letterBox44.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox44.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox44.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox44.Location = new System.Drawing.Point(173, 229);
             this.letterBox44.MaxLength = 1;
@@ -413,10 +426,11 @@
             this.letterBox44.Size = new System.Drawing.Size(43, 53);
             this.letterBox44.TabIndex = 100;
             this.letterBox44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox44.UseWaitCursor = true;
             // 
             // letterBox43
             // 
-            this.letterBox43.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox43.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox43.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox43.Location = new System.Drawing.Point(133, 229);
             this.letterBox43.MaxLength = 1;
@@ -425,10 +439,11 @@
             this.letterBox43.Size = new System.Drawing.Size(43, 53);
             this.letterBox43.TabIndex = 99;
             this.letterBox43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox43.UseWaitCursor = true;
             // 
             // letterBox42
             // 
-            this.letterBox42.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox42.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox42.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox42.Location = new System.Drawing.Point(91, 229);
             this.letterBox42.MaxLength = 1;
@@ -437,10 +452,11 @@
             this.letterBox42.Size = new System.Drawing.Size(43, 53);
             this.letterBox42.TabIndex = 98;
             this.letterBox42.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox42.UseWaitCursor = true;
             // 
             // letterBox41
             // 
-            this.letterBox41.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox41.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox41.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox41.Location = new System.Drawing.Point(51, 229);
             this.letterBox41.MaxLength = 1;
@@ -449,10 +465,11 @@
             this.letterBox41.Size = new System.Drawing.Size(43, 53);
             this.letterBox41.TabIndex = 97;
             this.letterBox41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox41.UseWaitCursor = true;
             // 
             // letterBox39
             // 
-            this.letterBox39.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox39.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox39.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox39.Location = new System.Drawing.Point(502, 155);
             this.letterBox39.MaxLength = 1;
@@ -461,10 +478,11 @@
             this.letterBox39.Size = new System.Drawing.Size(43, 53);
             this.letterBox39.TabIndex = 96;
             this.letterBox39.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox39.UseWaitCursor = true;
             // 
             // letterBox38
             // 
-            this.letterBox38.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox38.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox38.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox38.Location = new System.Drawing.Point(460, 155);
             this.letterBox38.MaxLength = 1;
@@ -473,10 +491,11 @@
             this.letterBox38.Size = new System.Drawing.Size(43, 53);
             this.letterBox38.TabIndex = 95;
             this.letterBox38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox38.UseWaitCursor = true;
             // 
             // letterBox37
             // 
-            this.letterBox37.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox37.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox37.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox37.Location = new System.Drawing.Point(419, 155);
             this.letterBox37.MaxLength = 1;
@@ -485,10 +504,11 @@
             this.letterBox37.Size = new System.Drawing.Size(43, 53);
             this.letterBox37.TabIndex = 94;
             this.letterBox37.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox37.UseWaitCursor = true;
             // 
             // letterBox36
             // 
-            this.letterBox36.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox36.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox36.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox36.Location = new System.Drawing.Point(379, 155);
             this.letterBox36.MaxLength = 1;
@@ -497,10 +517,11 @@
             this.letterBox36.Size = new System.Drawing.Size(43, 53);
             this.letterBox36.TabIndex = 93;
             this.letterBox36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox36.UseWaitCursor = true;
             // 
             // letterBox35
             // 
-            this.letterBox35.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox35.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox35.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox35.Location = new System.Drawing.Point(337, 155);
             this.letterBox35.MaxLength = 1;
@@ -509,10 +530,11 @@
             this.letterBox35.Size = new System.Drawing.Size(43, 53);
             this.letterBox35.TabIndex = 92;
             this.letterBox35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox35.UseWaitCursor = true;
             // 
             // letterBox34
             // 
-            this.letterBox34.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox34.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox34.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox34.Location = new System.Drawing.Point(297, 155);
             this.letterBox34.MaxLength = 1;
@@ -521,10 +543,11 @@
             this.letterBox34.Size = new System.Drawing.Size(43, 53);
             this.letterBox34.TabIndex = 91;
             this.letterBox34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox34.UseWaitCursor = true;
             // 
             // letterBox33
             // 
-            this.letterBox33.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox33.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox33.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox33.Location = new System.Drawing.Point(256, 155);
             this.letterBox33.MaxLength = 1;
@@ -533,10 +556,11 @@
             this.letterBox33.Size = new System.Drawing.Size(43, 53);
             this.letterBox33.TabIndex = 90;
             this.letterBox33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox33.UseWaitCursor = true;
             // 
             // letterBox32
             // 
-            this.letterBox32.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox32.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox32.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox32.Location = new System.Drawing.Point(214, 155);
             this.letterBox32.MaxLength = 1;
@@ -545,10 +569,11 @@
             this.letterBox32.Size = new System.Drawing.Size(43, 53);
             this.letterBox32.TabIndex = 89;
             this.letterBox32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox32.UseWaitCursor = true;
             // 
             // letterBox31
             // 
-            this.letterBox31.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox31.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox31.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox31.Location = new System.Drawing.Point(173, 155);
             this.letterBox31.MaxLength = 1;
@@ -557,10 +582,11 @@
             this.letterBox31.Size = new System.Drawing.Size(43, 53);
             this.letterBox31.TabIndex = 88;
             this.letterBox31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox31.UseWaitCursor = true;
             // 
             // letterBox30
             // 
-            this.letterBox30.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox30.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox30.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox30.Location = new System.Drawing.Point(133, 155);
             this.letterBox30.MaxLength = 1;
@@ -569,10 +595,11 @@
             this.letterBox30.Size = new System.Drawing.Size(43, 53);
             this.letterBox30.TabIndex = 87;
             this.letterBox30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox30.UseWaitCursor = true;
             // 
             // letterBox29
             // 
-            this.letterBox29.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox29.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox29.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox29.Location = new System.Drawing.Point(91, 155);
             this.letterBox29.MaxLength = 1;
@@ -581,10 +608,11 @@
             this.letterBox29.Size = new System.Drawing.Size(43, 53);
             this.letterBox29.TabIndex = 86;
             this.letterBox29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox29.UseWaitCursor = true;
             // 
             // letterBox28
             // 
-            this.letterBox28.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox28.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox28.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox28.Location = new System.Drawing.Point(51, 155);
             this.letterBox28.MaxLength = 1;
@@ -593,10 +621,11 @@
             this.letterBox28.Size = new System.Drawing.Size(43, 53);
             this.letterBox28.TabIndex = 85;
             this.letterBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox28.UseWaitCursor = true;
             // 
             // letterBox25
             // 
-            this.letterBox25.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox25.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox25.Location = new System.Drawing.Point(502, 81);
             this.letterBox25.MaxLength = 1;
@@ -605,10 +634,11 @@
             this.letterBox25.Size = new System.Drawing.Size(43, 53);
             this.letterBox25.TabIndex = 84;
             this.letterBox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox25.UseWaitCursor = true;
             // 
             // letterBox24
             // 
-            this.letterBox24.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox24.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox24.Location = new System.Drawing.Point(460, 81);
             this.letterBox24.MaxLength = 1;
@@ -617,10 +647,11 @@
             this.letterBox24.Size = new System.Drawing.Size(43, 53);
             this.letterBox24.TabIndex = 83;
             this.letterBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox24.UseWaitCursor = true;
             // 
             // letterBox23
             // 
-            this.letterBox23.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox23.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox23.Location = new System.Drawing.Point(419, 81);
             this.letterBox23.MaxLength = 1;
@@ -629,10 +660,11 @@
             this.letterBox23.Size = new System.Drawing.Size(43, 53);
             this.letterBox23.TabIndex = 82;
             this.letterBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox23.UseWaitCursor = true;
             // 
             // letterBox22
             // 
-            this.letterBox22.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox22.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox22.Location = new System.Drawing.Point(379, 81);
             this.letterBox22.MaxLength = 1;
@@ -641,10 +673,11 @@
             this.letterBox22.Size = new System.Drawing.Size(43, 53);
             this.letterBox22.TabIndex = 81;
             this.letterBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox22.UseWaitCursor = true;
             // 
             // letterBox21
             // 
-            this.letterBox21.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox21.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox21.Location = new System.Drawing.Point(337, 81);
             this.letterBox21.MaxLength = 1;
@@ -653,10 +686,11 @@
             this.letterBox21.Size = new System.Drawing.Size(43, 53);
             this.letterBox21.TabIndex = 80;
             this.letterBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox21.UseWaitCursor = true;
             // 
             // letterBox20
             // 
-            this.letterBox20.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox20.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox20.Location = new System.Drawing.Point(297, 81);
             this.letterBox20.MaxLength = 1;
@@ -665,10 +699,11 @@
             this.letterBox20.Size = new System.Drawing.Size(43, 53);
             this.letterBox20.TabIndex = 79;
             this.letterBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox20.UseWaitCursor = true;
             // 
             // letterBox19
             // 
-            this.letterBox19.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox19.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox19.Location = new System.Drawing.Point(256, 81);
             this.letterBox19.MaxLength = 1;
@@ -677,10 +712,11 @@
             this.letterBox19.Size = new System.Drawing.Size(43, 53);
             this.letterBox19.TabIndex = 78;
             this.letterBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox19.UseWaitCursor = true;
             // 
             // letterBox18
             // 
-            this.letterBox18.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox18.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox18.Location = new System.Drawing.Point(214, 81);
             this.letterBox18.MaxLength = 1;
@@ -689,10 +725,11 @@
             this.letterBox18.Size = new System.Drawing.Size(43, 53);
             this.letterBox18.TabIndex = 77;
             this.letterBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox18.UseWaitCursor = true;
             // 
             // letterBox17
             // 
-            this.letterBox17.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox17.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox17.Location = new System.Drawing.Point(173, 81);
             this.letterBox17.MaxLength = 1;
@@ -701,10 +738,11 @@
             this.letterBox17.Size = new System.Drawing.Size(43, 53);
             this.letterBox17.TabIndex = 76;
             this.letterBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox17.UseWaitCursor = true;
             // 
             // letterBox16
             // 
-            this.letterBox16.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox16.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox16.Location = new System.Drawing.Point(133, 81);
             this.letterBox16.MaxLength = 1;
@@ -713,10 +751,11 @@
             this.letterBox16.Size = new System.Drawing.Size(43, 53);
             this.letterBox16.TabIndex = 75;
             this.letterBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox16.UseWaitCursor = true;
             // 
             // letterBox15
             // 
-            this.letterBox15.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox15.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox15.Location = new System.Drawing.Point(91, 81);
             this.letterBox15.MaxLength = 1;
@@ -725,10 +764,11 @@
             this.letterBox15.Size = new System.Drawing.Size(43, 53);
             this.letterBox15.TabIndex = 74;
             this.letterBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox15.UseWaitCursor = true;
             // 
             // letterBox14
             // 
-            this.letterBox14.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox14.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox14.Location = new System.Drawing.Point(51, 81);
             this.letterBox14.MaxLength = 1;
@@ -737,10 +777,11 @@
             this.letterBox14.Size = new System.Drawing.Size(43, 53);
             this.letterBox14.TabIndex = 73;
             this.letterBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox14.UseWaitCursor = true;
             // 
             // letterBox12
             // 
-            this.letterBox12.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox12.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox12.Location = new System.Drawing.Point(502, 10);
             this.letterBox12.MaxLength = 1;
@@ -749,10 +790,11 @@
             this.letterBox12.Size = new System.Drawing.Size(43, 53);
             this.letterBox12.TabIndex = 72;
             this.letterBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox12.UseWaitCursor = true;
             // 
             // letterBox11
             // 
-            this.letterBox11.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox11.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox11.Location = new System.Drawing.Point(460, 10);
             this.letterBox11.MaxLength = 1;
@@ -761,10 +803,11 @@
             this.letterBox11.Size = new System.Drawing.Size(43, 53);
             this.letterBox11.TabIndex = 71;
             this.letterBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox11.UseWaitCursor = true;
             // 
             // letterBox10
             // 
-            this.letterBox10.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox10.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox10.Location = new System.Drawing.Point(419, 10);
             this.letterBox10.MaxLength = 1;
@@ -773,10 +816,11 @@
             this.letterBox10.Size = new System.Drawing.Size(43, 53);
             this.letterBox10.TabIndex = 70;
             this.letterBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox10.UseWaitCursor = true;
             // 
             // letterBox9
             // 
-            this.letterBox9.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox9.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox9.Location = new System.Drawing.Point(379, 10);
             this.letterBox9.MaxLength = 1;
@@ -785,10 +829,11 @@
             this.letterBox9.Size = new System.Drawing.Size(43, 53);
             this.letterBox9.TabIndex = 69;
             this.letterBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox9.UseWaitCursor = true;
             // 
             // letterBox8
             // 
-            this.letterBox8.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox8.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox8.Location = new System.Drawing.Point(337, 10);
             this.letterBox8.MaxLength = 1;
@@ -797,10 +842,11 @@
             this.letterBox8.Size = new System.Drawing.Size(43, 53);
             this.letterBox8.TabIndex = 68;
             this.letterBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox8.UseWaitCursor = true;
             // 
             // letterBox7
             // 
-            this.letterBox7.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox7.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox7.Location = new System.Drawing.Point(297, 10);
             this.letterBox7.MaxLength = 1;
@@ -809,10 +855,11 @@
             this.letterBox7.Size = new System.Drawing.Size(43, 53);
             this.letterBox7.TabIndex = 67;
             this.letterBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox7.UseWaitCursor = true;
             // 
             // letterBox6
             // 
-            this.letterBox6.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox6.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox6.Location = new System.Drawing.Point(256, 10);
             this.letterBox6.MaxLength = 1;
@@ -821,10 +868,11 @@
             this.letterBox6.Size = new System.Drawing.Size(43, 53);
             this.letterBox6.TabIndex = 66;
             this.letterBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox6.UseWaitCursor = true;
             // 
             // letterBox5
             // 
-            this.letterBox5.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox5.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox5.Location = new System.Drawing.Point(214, 10);
             this.letterBox5.MaxLength = 1;
@@ -833,10 +881,11 @@
             this.letterBox5.Size = new System.Drawing.Size(43, 53);
             this.letterBox5.TabIndex = 65;
             this.letterBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox5.UseWaitCursor = true;
             // 
             // letterBox4
             // 
-            this.letterBox4.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox4.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox4.Location = new System.Drawing.Point(173, 10);
             this.letterBox4.MaxLength = 1;
@@ -845,10 +894,11 @@
             this.letterBox4.Size = new System.Drawing.Size(43, 53);
             this.letterBox4.TabIndex = 64;
             this.letterBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox4.UseWaitCursor = true;
             // 
             // letterBox3
             // 
-            this.letterBox3.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox3.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox3.Location = new System.Drawing.Point(133, 10);
             this.letterBox3.MaxLength = 1;
@@ -857,10 +907,11 @@
             this.letterBox3.Size = new System.Drawing.Size(43, 53);
             this.letterBox3.TabIndex = 63;
             this.letterBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox3.UseWaitCursor = true;
             // 
             // letterBox2
             // 
-            this.letterBox2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox2.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox2.Location = new System.Drawing.Point(91, 10);
             this.letterBox2.MaxLength = 1;
@@ -869,10 +920,11 @@
             this.letterBox2.Size = new System.Drawing.Size(43, 53);
             this.letterBox2.TabIndex = 62;
             this.letterBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox2.UseWaitCursor = true;
             // 
             // letterBox1
             // 
-            this.letterBox1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.letterBox1.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.letterBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.letterBox1.Location = new System.Drawing.Point(51, 10);
             this.letterBox1.MaxLength = 1;
@@ -881,6 +933,7 @@
             this.letterBox1.Size = new System.Drawing.Size(43, 53);
             this.letterBox1.TabIndex = 61;
             this.letterBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.letterBox1.UseWaitCursor = true;
             // 
             // button2
             // 
@@ -981,7 +1034,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(231, 494);
+            this.label1.Location = new System.Drawing.Point(231, 490);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(160, 24);
             this.label1.TabIndex = 19;
@@ -1014,7 +1067,7 @@
             this.BackColor = System.Drawing.Color.Bisque;
             this.BackgroundImage = global::DuckOfFortune.Properties.Resources.pngfind_com_curtains_png_943917;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1178, 845);
+            this.ClientSize = new System.Drawing.Size(1178, 844);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label1);
