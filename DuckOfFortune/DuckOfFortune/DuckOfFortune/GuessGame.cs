@@ -190,6 +190,33 @@ namespace DuckOfFortune
                 GuessLbl.Text = "Guesses Left: ";
                 if (numbguessesleft == 0)
                 {
+                    var count3 = 0;
+                    var whiteCounter = 0;
+                    var sleepTime = 400;
+                    while (count3 < 52)
+                    {
+                        var chosenbox = "letterBox" + (count3 + 1);
+                        Console.WriteLine(chosenbox);
+                        TextBox tbx = this.Controls.Find(chosenbox, true).FirstOrDefault() as TextBox;
+                        if (tbx.BackColor != Color.Black)
+                        {
+                            whiteCounter++;
+                            if (whiteCounter == 3)
+                            {
+                                sleepTime = 0;
+                            }
+                        }
+                        if (tbx.ForeColor == Color.Black)
+                        {
+                            whiteCounter = 0;
+                        }
+                        Console.WriteLine(tbx.Text);
+                        tbx.ForeColor = Color.White;
+                        tbx.Refresh();
+                        Thread.Sleep(sleepTime);
+
+                        count3++;
+                    }
                     string message = "Hold this L. Off to the wheel of misfortune";
                     MessageBox.Show(message);
                     this.Hide();

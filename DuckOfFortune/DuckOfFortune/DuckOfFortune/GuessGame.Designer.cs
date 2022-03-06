@@ -109,6 +109,7 @@
             // 
             // GenerateBtn
             // 
+            this.GenerateBtn.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GenerateBtn.Location = new System.Drawing.Point(8, 490);
             this.GenerateBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.GenerateBtn.Name = "GenerateBtn";
