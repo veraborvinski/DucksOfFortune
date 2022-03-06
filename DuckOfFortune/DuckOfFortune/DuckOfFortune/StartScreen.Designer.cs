@@ -55,14 +55,14 @@
             // 
             this.nameBox.BackColor = System.Drawing.Color.AntiqueWhite;
             this.nameBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nameBox.Location = new System.Drawing.Point(202, 766);
+            this.nameBox.Location = new System.Drawing.Point(201, 649);
             this.nameBox.Name = "nameBox";
             this.nameBox.Size = new System.Drawing.Size(194, 43);
             this.nameBox.TabIndex = 1;
             // 
             // btnYes
             // 
-            this.btnYes.Location = new System.Drawing.Point(435, 766);
+            this.btnYes.Location = new System.Drawing.Point(434, 649);
             this.btnYes.Name = "btnYes";
             this.btnYes.Size = new System.Drawing.Size(100, 48);
             this.btnYes.TabIndex = 2;
@@ -94,7 +94,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Kunstler Script", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(40, 14);
+            this.label1.Location = new System.Drawing.Point(-8, -3);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(292, 104);
@@ -106,7 +106,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Himalaya", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(42, 120);
+            this.label2.Location = new System.Drawing.Point(42, 101);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(820, 544);
@@ -118,7 +118,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Himalaya", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(40, 780);
+            this.label3.Location = new System.Drawing.Point(39, 648);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(150, 44);
