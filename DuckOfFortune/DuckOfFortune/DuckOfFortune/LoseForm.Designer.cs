@@ -113,7 +113,7 @@ namespace DuckOfFortune
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.DoubleBuffered = true;
+            this.Enabled = false;
             this.Name = "LoseForm";
             this.Text = "LoseForm";
             this.Load += new System.EventHandler(this.LoseForm_Load);
