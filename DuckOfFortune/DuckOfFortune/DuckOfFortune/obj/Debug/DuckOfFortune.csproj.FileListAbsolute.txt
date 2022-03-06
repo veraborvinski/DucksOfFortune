@@ -91,3 +91,8 @@ C:\Users\Rares\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFor
 C:\Users\Rares\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.csproj.GenerateResource.cache
 C:\Users\Rares\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.exe
 C:\Users\Rares\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.pdb
+C:\Users\Rares\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\bin\Debug\DuckOfFortune.exe.config
+C:\Users\Rares\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\bin\Debug\DuckOfFortune.exe
+C:\Users\Rares\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\bin\Debug\DuckOfFortune.pdb
+C:\Users\Rares\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.Properties.Resources.resources
+C:\Users\Rares\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.csproj.CoreCompileInputs.cache
