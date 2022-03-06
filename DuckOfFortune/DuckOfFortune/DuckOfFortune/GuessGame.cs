@@ -151,9 +151,31 @@ namespace DuckOfFortune
             if(guessCorrect == false)
             {
                 int numbguessesleft = Int32.Parse(Global.guesseslefty);
+                var ducktoremove = numbguessesleft;
+                if (ducktoremove == 5)
+                {
+                    duck5.BackgroundImage = Properties.Resources.deadduck;
+                }
+                if (ducktoremove == 4)
+                {
+                    duck4.BackgroundImage = Properties.Resources.deadduck;
+                }
+                if (ducktoremove == 3)
+                {
+                    duck3.BackgroundImage = Properties.Resources.deadduck;
+                }
+                if (ducktoremove == 2)
+                {
+                    duck2.BackgroundImage = Properties.Resources.deadduck;
+                }
+                if (ducktoremove == 1)
+                {
+                    duck1.BackgroundImage = Properties.Resources.deadduck;
+                }
+
                 numbguessesleft--;
                 Global.guesseslefty = numbguessesleft.ToString();
-                GuessLbl.Text="Guesses Left: "+numbguessesleft;
+                GuessLbl.Text = "Guesses Left: ";
                 if (numbguessesleft == 0)
                 {
                     string message = "You Lose";
@@ -175,7 +197,7 @@ namespace DuckOfFortune
         {
             var lastLine = File.ReadLines("currentplayer.txt").Last();
             string[] getscore = lastLine.Split(',');
-            lblScore.Text = "You have: £" + getscore[1];
+            lblScore.Text = "£" + getscore[1];
             Global2.giveupchecky = "0";
             Global.guesseslefty = "5";
             
@@ -297,6 +319,11 @@ namespace DuckOfFortune
         private void guessBox_TextChanged(object sender, KeyEventArgs e) { }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
         {
 
         }

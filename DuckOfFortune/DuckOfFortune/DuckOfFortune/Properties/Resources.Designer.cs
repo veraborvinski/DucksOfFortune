@@ -113,6 +113,26 @@ namespace DuckOfFortune.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap deadduck {
+            get {
+                object obj = ResourceManager.GetObject("deadduck", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DoF_Icon {
+            get {
+                object obj = ResourceManager.GetObject("DoF Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap download {
             get {
                 object obj = ResourceManager.GetObject("download", resourceCulture);
@@ -123,19 +143,9 @@ namespace DuckOfFortune.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fireexit {
+        internal static System.Drawing.Bitmap moneytotal {
             get {
-                object obj = ResourceManager.GetObject("fireexit", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap istockphoto_652651670_612x612 {
-            get {
-                object obj = ResourceManager.GetObject("istockphoto-652651670-612x612", resourceCulture);
+                object obj = ResourceManager.GetObject("moneytotal", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +163,19 @@ namespace DuckOfFortune.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap top_duck {
+        internal static System.Drawing.Bitmap rubberduck {
             get {
-                object obj = ResourceManager.GetObject("top duck", resourceCulture);
+                object obj = ResourceManager.GetObject("rubberduck", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wrinkled_paper_3 {
+            get {
+                object obj = ResourceManager.GetObject("wrinkled-paper-3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

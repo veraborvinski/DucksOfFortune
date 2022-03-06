@@ -81,3 +81,13 @@ C:\Users\camer\OneDrive\Desktop\New folder\DuckOfFortune\DuckOfFortune\DuckOfFor
 C:\Users\camer\OneDrive\Desktop\New folder\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.csproj.CoreCompileInputs.cache
 C:\Users\camer\OneDrive\Desktop\New folder\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.exe
 C:\Users\camer\OneDrive\Desktop\New folder\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.pdb
+C:\Users\Rares\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.csprojAssemblyReference.cache
+C:\Users\Rares\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.MainMenu.resources
+C:\Users\Rares\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.GuessGame.resources
+C:\Users\Rares\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.HighScore.resources
+C:\Users\Rares\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.Rules.resources
+C:\Users\Rares\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.StartScreen.resources
+C:\Users\Rares\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.Wheel.resources
+C:\Users\Rares\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.csproj.GenerateResource.cache
+C:\Users\Rares\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.exe
+C:\Users\Rares\Source\Repos\veraborvinski\DucksOfFortune\DuckOfFortune\DuckOfFortune\DuckOfFortune\obj\Debug\DuckOfFortune.pdb
