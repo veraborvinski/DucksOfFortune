@@ -114,6 +114,8 @@ namespace DuckOfFortune
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Enabled = false;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "LoseForm";
             this.Text = "LoseForm";
             this.Load += new System.EventHandler(this.LoseForm_Load);
