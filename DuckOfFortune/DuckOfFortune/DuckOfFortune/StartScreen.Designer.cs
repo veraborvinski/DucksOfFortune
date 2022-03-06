@@ -133,7 +133,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.BackgroundImage = global::DuckOfFortune.Properties.Resources.xconvert_com;
+            this.pictureBox2.BackgroundImage = global::DuckOfFortune.Properties.Resources.DoF_Icon;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(534, 246);
             this.pictureBox2.Name = "pictureBox2";
