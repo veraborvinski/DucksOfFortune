@@ -94,6 +94,11 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.duck1 = new System.Windows.Forms.Panel();
+            this.duck2 = new System.Windows.Forms.Panel();
+            this.duck4 = new System.Windows.Forms.Panel();
+            this.duck3 = new System.Windows.Forms.Panel();
+            this.duck5 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -110,16 +115,17 @@
             // 
             // guessBox
             // 
-            this.guessBox.Location = new System.Drawing.Point(232, 438);
+            this.guessBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guessBox.Location = new System.Drawing.Point(207, 556);
             this.guessBox.MaxLength = 1;
             this.guessBox.Name = "guessBox";
-            this.guessBox.Size = new System.Drawing.Size(116, 26);
+            this.guessBox.Size = new System.Drawing.Size(52, 44);
             this.guessBox.TabIndex = 2;
             this.guessBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.guessBox_KeyDown);
             // 
             // guessBtn
             // 
-            this.guessBtn.Location = new System.Drawing.Point(356, 429);
+            this.guessBtn.Location = new System.Drawing.Point(287, 558);
             this.guessBtn.Name = "guessBtn";
             this.guessBtn.Size = new System.Drawing.Size(75, 48);
             this.guessBtn.TabIndex = 3;
@@ -131,12 +137,12 @@
             // 
             this.GuessLbl.AutoSize = true;
             this.GuessLbl.BackColor = System.Drawing.Color.Transparent;
-            this.GuessLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GuessLbl.Location = new System.Drawing.Point(141, 506);
+            this.GuessLbl.Font = new System.Drawing.Font("Comic Sans MS", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GuessLbl.Location = new System.Drawing.Point(263, 419);
             this.GuessLbl.Name = "GuessLbl";
-            this.GuessLbl.Size = new System.Drawing.Size(240, 37);
+            this.GuessLbl.Size = new System.Drawing.Size(230, 45);
             this.GuessLbl.TabIndex = 4;
-            this.GuessLbl.Text = "Guesses Left: 5";
+            this.GuessLbl.Text = "Guesses Left:";
             this.GuessLbl.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
@@ -155,8 +161,8 @@
             // HintLbl
             // 
             this.HintLbl.BackColor = System.Drawing.Color.Transparent;
-            this.HintLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HintLbl.Location = new System.Drawing.Point(580, 638);
+            this.HintLbl.Font = new System.Drawing.Font("Comic Sans MS", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HintLbl.Location = new System.Drawing.Point(566, 638);
             this.HintLbl.Name = "HintLbl";
             this.HintLbl.Size = new System.Drawing.Size(448, 98);
             this.HintLbl.TabIndex = 0;
@@ -178,8 +184,8 @@
             // QuestLbl
             // 
             this.QuestLbl.BackColor = System.Drawing.Color.Transparent;
-            this.QuestLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QuestLbl.Location = new System.Drawing.Point(580, 448);
+            this.QuestLbl.Font = new System.Drawing.Font("Comic Sans MS", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QuestLbl.Location = new System.Drawing.Point(566, 480);
             this.QuestLbl.Name = "QuestLbl";
             this.QuestLbl.Size = new System.Drawing.Size(448, 158);
             this.QuestLbl.TabIndex = 7;
@@ -914,6 +920,57 @@
             this.button5.Text = "button5";
             this.button5.UseVisualStyleBackColor = true;
             // 
+            // duck1
+            // 
+            this.duck1.BackColor = System.Drawing.Color.Transparent;
+            this.duck1.BackgroundImage = global::DuckOfFortune.Properties.Resources.rubberduck;
+            this.duck1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.duck1.Location = new System.Drawing.Point(499, 410);
+            this.duck1.Name = "duck1";
+            this.duck1.Size = new System.Drawing.Size(63, 54);
+            this.duck1.TabIndex = 14;
+            this.duck1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            // 
+            // duck2
+            // 
+            this.duck2.BackColor = System.Drawing.Color.Transparent;
+            this.duck2.BackgroundImage = global::DuckOfFortune.Properties.Resources.rubberduck;
+            this.duck2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.duck2.Location = new System.Drawing.Point(568, 410);
+            this.duck2.Name = "duck2";
+            this.duck2.Size = new System.Drawing.Size(63, 54);
+            this.duck2.TabIndex = 15;
+            // 
+            // duck4
+            // 
+            this.duck4.BackColor = System.Drawing.Color.Transparent;
+            this.duck4.BackgroundImage = global::DuckOfFortune.Properties.Resources.rubberduck;
+            this.duck4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.duck4.Location = new System.Drawing.Point(706, 410);
+            this.duck4.Name = "duck4";
+            this.duck4.Size = new System.Drawing.Size(63, 54);
+            this.duck4.TabIndex = 17;
+            // 
+            // duck3
+            // 
+            this.duck3.BackColor = System.Drawing.Color.Transparent;
+            this.duck3.BackgroundImage = global::DuckOfFortune.Properties.Resources.rubberduck;
+            this.duck3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.duck3.Location = new System.Drawing.Point(637, 410);
+            this.duck3.Name = "duck3";
+            this.duck3.Size = new System.Drawing.Size(63, 54);
+            this.duck3.TabIndex = 16;
+            // 
+            // duck5
+            // 
+            this.duck5.BackColor = System.Drawing.Color.Transparent;
+            this.duck5.BackgroundImage = global::DuckOfFortune.Properties.Resources.rubberduck;
+            this.duck5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.duck5.Location = new System.Drawing.Point(775, 410);
+            this.duck5.Name = "duck5";
+            this.duck5.Size = new System.Drawing.Size(63, 54);
+            this.duck5.TabIndex = 18;
+            // 
             // GuessGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -922,6 +979,11 @@
             this.BackgroundImage = global::DuckOfFortune.Properties.Resources.pngfind_com_curtains_png_943917;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1178, 845);
+            this.Controls.Add(this.duck5);
+            this.Controls.Add(this.duck4);
+            this.Controls.Add(this.duck3);
+            this.Controls.Add(this.duck2);
+            this.Controls.Add(this.duck1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
@@ -1018,5 +1080,10 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Panel duck1;
+        private System.Windows.Forms.Panel duck2;
+        private System.Windows.Forms.Panel duck4;
+        private System.Windows.Forms.Panel duck3;
+        private System.Windows.Forms.Panel duck5;
     }
 }

@@ -2,3 +2,4 @@ d,0
 cfghcg,0
 lkh0,100
 vera,0
+,0
