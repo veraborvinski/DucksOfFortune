@@ -168,7 +168,10 @@
     <None Include="Resources\total2.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\moneytotal2.jpg" />
+    <None Include="Resources\wrinkled-paper-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoF Icon1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

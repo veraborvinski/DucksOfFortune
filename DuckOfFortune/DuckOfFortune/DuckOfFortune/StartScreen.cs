@@ -49,7 +49,7 @@ namespace DuckOfFortune
         {
             btnConfirm.Show();
             nameBox.Show();
-            btnYes.Hide();
+            //btnYes.Hide();
             btnNo.Hide();
             nameLbl.Hide();
 
@@ -59,7 +59,7 @@ namespace DuckOfFortune
         {
             btnConfirm.Show();
             nameBox.Show();
-            btnYes.Hide();
+            //btnYes.Hide();
             btnNo.Hide();
             nameLbl.Hide();
         }

@@ -113,6 +113,16 @@ namespace DuckOfFortune.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap DoF_Icon {
+            get {
+                object obj = ResourceManager.GetObject("DoF Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap download {
             get {
                 object obj = ResourceManager.GetObject("download", resourceCulture);
@@ -136,6 +146,16 @@ namespace DuckOfFortune.Properties {
         internal static System.Drawing.Bitmap pngfind_com_curtains_png_943917 {
             get {
                 object obj = ResourceManager.GetObject("pngfind.com-curtains-png-943917", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap wrinkled_paper_3 {
+            get {
+                object obj = ResourceManager.GetObject("wrinkled-paper-3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
