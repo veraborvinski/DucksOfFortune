@@ -43,5 +43,10 @@ namespace DuckOfFortune
             SoundPlayer intromusic = new SoundPlayer("theme.wav");
             intromusic.Play();
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

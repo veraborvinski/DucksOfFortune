@@ -213,6 +213,27 @@ namespace DuckOfFortune.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap png_clipart_icon_design_explosion_icon_price_tag_illustration_of_cartoon_explosion_sale_tag_leaf_thumbnail {
+            get {
+                object obj = ResourceManager.GetObject("png-clipart-icon-design-explosion-icon-price-tag-illustration-of-cartoon-explosio" +
+                        "n-sale-tag-leaf-thumbnail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngegg {
+            get {
+                object obj = ResourceManager.GetObject("pngegg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pngfind_com_curtains_png_943917 {
             get {
                 object obj = ResourceManager.GetObject("pngfind.com-curtains-png-943917", resourceCulture);

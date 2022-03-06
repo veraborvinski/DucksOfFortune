@@ -163,11 +163,17 @@
   <data name="Speech" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Speech.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="png-clipart-icon-design-explosion-icon-price-tag-illustration-of-cartoon-explosion-sale-tag-leaf-thumbnail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\png-clipart-icon-design-explosion-icon-price-tag-illustration-of-cartoon-explosion-sale-tag-leaf-thumbnail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Speech1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Speech1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="duck of fortunes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\duck of fortunes.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,7 +187,7 @@
   <data name="de4wzfe-77d9456f-9a3c-4e88-944b-7df8b466d11b" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\de4wzfe-77d9456f-9a3c-4e88-944b-7df8b466d11b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="duck of fortunes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\duck of fortunes.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pngegg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngegg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
