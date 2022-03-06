@@ -117,4 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value>The user hereby agrees to participate in the Duck of Fortune.
+
+The user agrees that any and all winnings shall go to an environmental charity.
+
+The user agrees that they must pay out of pocket if ending the game with a 
+negative balance.
+
+The user is aware that any losses must be repaid to an evil corporation
+
+The user agrees to the rules below:
+
+A correct guess reveals a letter of the board
+
+5 wrong guesses result in the wheel of misfortune
+
+Guessing the phrase correctly results in the wheel of fortune
+</value>
+  </data>
 </root>

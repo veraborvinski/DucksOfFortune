@@ -143,5 +143,14 @@
   <ItemGroup>
     <None Include="Resources\4.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wrinkled-paper-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoF Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xconvert.com.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

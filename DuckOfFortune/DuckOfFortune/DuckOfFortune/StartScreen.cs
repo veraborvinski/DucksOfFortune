@@ -49,7 +49,6 @@ namespace DuckOfFortune
         {
             btnConfirm.Show();
             nameBox.Show();
-            btnYes.Hide();
             btnNo.Hide();
             nameLbl.Hide();
 
@@ -59,7 +58,6 @@ namespace DuckOfFortune
         {
             btnConfirm.Show();
             nameBox.Show();
-            btnYes.Hide();
             btnNo.Hide();
             nameLbl.Hide();
         }
@@ -73,6 +71,11 @@ namespace DuckOfFortune
             var guessgame = new GuessGame();
             guessgame.Closed += (s, args) => this.Close();
             guessgame.Show();
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
 
         }
     }
