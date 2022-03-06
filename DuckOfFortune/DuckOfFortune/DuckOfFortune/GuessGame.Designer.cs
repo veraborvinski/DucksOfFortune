@@ -91,7 +91,11 @@
             this.letterBox1 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // GenerateBtn
@@ -163,11 +167,11 @@
             // 
             this.lblScore.AutoSize = true;
             this.lblScore.BackColor = System.Drawing.Color.Transparent;
-            this.lblScore.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScore.Font = new System.Drawing.Font("Comic Sans MS", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScore.ForeColor = System.Drawing.Color.Transparent;
-            this.lblScore.Location = new System.Drawing.Point(351, 558);
+            this.lblScore.Location = new System.Drawing.Point(26, 20);
             this.lblScore.Name = "lblScore";
-            this.lblScore.Size = new System.Drawing.Size(124, 35);
+            this.lblScore.Size = new System.Drawing.Size(165, 45);
             this.lblScore.TabIndex = 6;
             this.lblScore.Text = "£123456";
             // 
@@ -882,6 +886,34 @@
             this.button3.TabIndex = 10;
             this.button3.UseVisualStyleBackColor = true;
             // 
+            // panel2
+            // 
+            this.panel2.BackgroundImage = global::DuckOfFortune.Properties.Resources.moneytotal;
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Controls.Add(this.lblScore);
+            this.panel2.Location = new System.Drawing.Point(35, 33);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(214, 84);
+            this.panel2.TabIndex = 11;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(76, -7);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(10, 44);
+            this.button4.TabIndex = 12;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(207, -7);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(10, 44);
+            this.button5.TabIndex = 13;
+            this.button5.Text = "button5";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
             // GuessGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -890,10 +922,10 @@
             this.BackgroundImage = global::DuckOfFortune.Properties.Resources.pngfind_com_curtains_png_943917;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1178, 845);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.QuestLbl);
-            this.Controls.Add(this.lblScore);
             this.Controls.Add(this.HintLbl);
             this.Controls.Add(this.GuessLbl);
             this.Controls.Add(this.guessBtn);
@@ -901,6 +933,8 @@
             this.Controls.Add(this.GenerateBtn);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button3);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button5);
             this.DoubleBuffered = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -910,6 +944,8 @@
             this.Load += new System.EventHandler(this.GuessGame_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -979,5 +1015,8 @@
         private System.Windows.Forms.TextBox letterBox3;
         private System.Windows.Forms.TextBox letterBox2;
         private System.Windows.Forms.TextBox letterBox1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }

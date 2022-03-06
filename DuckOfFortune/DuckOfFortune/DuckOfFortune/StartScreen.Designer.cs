@@ -112,7 +112,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Himalaya", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(28, 78);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(535, 315);
+            this.label2.Size = new System.Drawing.Size(535, 357);
             this.label2.TabIndex = 6;
             this.label2.Text = resources.GetString("label2.Text");
             // 
