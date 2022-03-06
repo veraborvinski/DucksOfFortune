@@ -176,5 +176,19 @@ namespace DuckOfFortune
             string[] getscore = lastLine.Split(',');
             lblScore.Text = "£" + getscore[1];
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            var lastLine = File.ReadLines("currentplayer.txt").Last();
+            string[] getscore = lastLine.Split(',');
+
+
+            File.AppendAllText(@"Scores.txt", getscore[0] + "," + getscore[1] + Environment.NewLine);
+
+            this.Hide();
+            MainMenu mainMenu = new MainMenu();
+            mainMenu.Show();
+            this.Hide();
+        }
     }
 }
