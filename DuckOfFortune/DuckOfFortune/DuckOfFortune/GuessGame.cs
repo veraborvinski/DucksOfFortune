@@ -267,16 +267,12 @@ namespace DuckOfFortune
 
                     bool result = Char.IsWhiteSpace(letterToWrite);
 
-                    if (result != true)
+                    if (result != true) 
                     {
                         tbx.ForeColor = Color.Black;
                         tbx.BackColor = Color.Black;
                     }
 
-                    if (letterToWrite is ';' || letterToWrite is '-')
-                    {
-                        tbx.ForeColor = Color.White;
-                    }
                     count++;
                 }
             }
