@@ -2,4 +2,4 @@ vera,5000
 Cam,10000
 Egg,70
 Megg,0
-yes,750
+j,0

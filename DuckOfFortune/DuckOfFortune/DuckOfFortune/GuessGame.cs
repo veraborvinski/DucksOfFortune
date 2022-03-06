@@ -294,9 +294,20 @@ namespace DuckOfFortune
 
             File.AppendAllText(@"Scores.txt", getscore[0]+","+getscore[1] + Environment.NewLine);
 
-            WinForm winform = new WinForm();
-            winform.Show();
-            this.Hide();
+            if (getscore[1] != "0")
+            {
+
+
+                WinForm winform = new WinForm();
+                winform.Show();
+                this.Hide();
+            }
+
+            else {
+                WhatForm whatform = new WhatForm();
+                whatform.Show();
+                this.Hide();
+            }
         }
 
         private void GenerateQuestionAndHint()
