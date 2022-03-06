@@ -126,11 +126,9 @@ namespace DuckOfFortune
             bool negative = checkscore < 0;
             if (negative == true)
             {
-                var message = "You have lost";
-                MessageBox.Show(message);
+                LoseForm loseform = new LoseForm();
+                loseform.Show();
                 this.Hide();
-                MainMenu mainMenu = new MainMenu();
-                mainMenu.Show();
             }
 
             else
