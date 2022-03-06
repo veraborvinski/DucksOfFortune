@@ -165,7 +165,7 @@ namespace DuckOfFortune
                     
             }
 
-
+            guessBox.Text = "";
         }
 
         static string[] lines = File.ReadAllLines("Phrases.txt");
